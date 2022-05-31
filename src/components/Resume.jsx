@@ -11,7 +11,7 @@ const Resume = () => {
       {/* Navbar */}
       <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-main-dark text-main-light">
         <div>
-          <LinkRouter to="/">
+          <LinkRouter to="/Portfolio-site">
             <HiOutlineBackspace size={40} />
           </LinkRouter>
         </div>

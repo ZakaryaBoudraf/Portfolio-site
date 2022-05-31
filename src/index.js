@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="/Portfolio-site" element={<App />} />
       <Route path="/resume" element={<Resume />} />
     </Routes>
   </BrowserRouter>
