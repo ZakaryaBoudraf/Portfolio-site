@@ -1,6 +1,6 @@
 import React from "react";
-import RealEstate from "../assets/realestate.jpg";
-import WorkImg from "../assets/workImg.jpeg";
+import ArchiDesignImg from "../assets/archi-design-screen.png";
+import PFEImg from "../assets/PFE-screen.png";
 
 const Work = () => {
   return (
@@ -15,46 +15,50 @@ const Work = () => {
 
         <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-4">
           {/* card */}
-          <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* hover effect */}
-            <div className="opacity-0 group-hover:opacity-100 duration-100">
+          <div>
+            <div
+              style={{ backgroundImage: `url(${PFEImg})` }}
+              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            ></div>
+            {/* title / buttons */}
+            <div className="flex flex-col bg-[#0a1328] justify-center items-center py-4 mt-[-20px] rounded-b-md">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Java CRUD application
               </span>
-              <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+              <div className="pt-2 text-center">
+                <a
+                  href="https://github.com/ZakaryaBoudraf/PFE/blob/main/Projet.pdf"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-xl hover:text-white hover:bg-main-light duration-150">
+                    Project report
                   </button>
                 </a>
               </div>
             </div>
           </div>
-          <div
-            style={{ backgroundImage: `url(${RealEstate})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* hover effect */}
-            <div className="opacity-0 group-hover:opacity-100 duration-100">
+          {/* card */}
+          <div>
+            <div
+              style={{ backgroundImage: `url(${ArchiDesignImg})` }}
+              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            ></div>
+            {/* title / buttons */}
+            <div className="flex flex-col bg-[#0a1328] justify-center items-center py-4 mt-[-20px] rounded-b-md">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Archi-Design studio site
               </span>
-              <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-lg">
+              <div className="pt-2 text-center">
+                <a href="https://archi-design.netlify.app/" target="_blank">
+                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-xl hover:text-white hover:bg-main-light duration-150">
                     Demo
                   </button>
                 </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-lg">
+                <a
+                  href="https://github.com/ZakaryaBoudraf/archi-design"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-xl hover:text-white hover:bg-main-light duration-150">
                     Code
                   </button>
                 </a>
