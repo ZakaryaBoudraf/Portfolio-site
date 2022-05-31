@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio-site/static/css/main.b690d983.css",
-    "main.js": "/Portfolio-site/static/js/main.b5b5a556.js",
+    "main.css": "/Portfolio-site/static/css/main.0dad0692.css",
+    "main.js": "/Portfolio-site/static/js/main.be2ef978.js",
+    "static/media/BoudrafZakaryaCV.pdf": "/Portfolio-site/static/media/BoudrafZakaryaCV.2a481286d211c88a0db8.pdf",
     "static/media/archi-design-screen.png": "/Portfolio-site/static/media/archi-design-screen.e45e9968b6a62d1e96d1.png",
     "static/media/PFE-screen.png": "/Portfolio-site/static/media/PFE-screen.f8af92b6ae45f62aa23e.png",
     "static/media/react.png": "/Portfolio-site/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -12,11 +13,11 @@
     "static/media/logoTest.png": "/Portfolio-site/static/media/logoTest.8054e36299e64aeb00ec.png",
     "static/media/javascript.png": "/Portfolio-site/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfolio-site/index.html",
-    "main.b690d983.css.map": "/Portfolio-site/static/css/main.b690d983.css.map",
-    "main.b5b5a556.js.map": "/Portfolio-site/static/js/main.b5b5a556.js.map"
+    "main.0dad0692.css.map": "/Portfolio-site/static/css/main.0dad0692.css.map",
+    "main.be2ef978.js.map": "/Portfolio-site/static/js/main.be2ef978.js.map"
   },
   "entrypoints": [
-    "static/css/main.b690d983.css",
-    "static/js/main.b5b5a556.js"
+    "static/css/main.0dad0692.css",
+    "static/js/main.be2ef978.js"
   ]
 }
