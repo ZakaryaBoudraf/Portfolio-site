@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-site/static/css/main.c5c6ec72.css",
-    "main.js": "/Portfolio-site/static/js/main.021393f0.js",
+    "main.js": "/Portfolio-site/static/js/main.2afe17d3.js",
     "static/media/BoudrafZakaryaCV.pdf": "/Portfolio-site/static/media/BoudrafZakaryaCV.2a481286d211c88a0db8.pdf",
     "static/media/archi-design-screen.png": "/Portfolio-site/static/media/archi-design-screen.e45e9968b6a62d1e96d1.png",
     "static/media/PFE-screen.png": "/Portfolio-site/static/media/PFE-screen.f8af92b6ae45f62aa23e.png",
@@ -14,10 +14,10 @@
     "static/media/javascript.png": "/Portfolio-site/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfolio-site/index.html",
     "main.c5c6ec72.css.map": "/Portfolio-site/static/css/main.c5c6ec72.css.map",
-    "main.021393f0.js.map": "/Portfolio-site/static/js/main.021393f0.js.map"
+    "main.2afe17d3.js.map": "/Portfolio-site/static/js/main.2afe17d3.js.map"
   },
   "entrypoints": [
     "static/css/main.c5c6ec72.css",
-    "static/js/main.021393f0.js"
+    "static/js/main.2afe17d3.js"
   ]
 }
