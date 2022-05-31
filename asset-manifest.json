@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/Portfolio-site/static/css/main.71997b90.css",
-    "main.js": "/Portfolio-site/static/js/main.d7c46f19.js",
-    "static/media/realestate.jpg": "/Portfolio-site/static/media/realestate.44fd19f4c6872731149c.jpg",
-    "static/media/workImg.jpeg": "/Portfolio-site/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
+    "main.css": "/Portfolio-site/static/css/main.b690d983.css",
+    "main.js": "/Portfolio-site/static/js/main.7516dc76.js",
+    "static/media/archi-design-screen.png": "/Portfolio-site/static/media/archi-design-screen.e45e9968b6a62d1e96d1.png",
+    "static/media/PFE-screen.png": "/Portfolio-site/static/media/PFE-screen.f8af92b6ae45f62aa23e.png",
     "static/media/react.png": "/Portfolio-site/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/github.png": "/Portfolio-site/static/media/github.3b9e32903aa89111875d.png",
     "static/media/html.png": "/Portfolio-site/static/media/html.2ba4fabc69a89a8f71e6.png",
@@ -12,11 +12,11 @@
     "static/media/logoTest.png": "/Portfolio-site/static/media/logoTest.8054e36299e64aeb00ec.png",
     "static/media/javascript.png": "/Portfolio-site/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfolio-site/index.html",
-    "main.71997b90.css.map": "/Portfolio-site/static/css/main.71997b90.css.map",
-    "main.d7c46f19.js.map": "/Portfolio-site/static/js/main.d7c46f19.js.map"
+    "main.b690d983.css.map": "/Portfolio-site/static/css/main.b690d983.css.map",
+    "main.7516dc76.js.map": "/Portfolio-site/static/js/main.7516dc76.js.map"
   },
   "entrypoints": [
-    "static/css/main.71997b90.css",
-    "static/js/main.d7c46f19.js"
+    "static/css/main.b690d983.css",
+    "static/js/main.7516dc76.js"
   ]
 }
