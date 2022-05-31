@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail, HiOutlineBackspace } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import { Link } from "react-scroll";
 import { Link as LinkRouter } from "react-router-dom";
+import ResumePDF from "../assets/BoudrafZakaryaCV.pdf";
 
 const Resume = () => {
   return (
@@ -54,6 +54,14 @@ const Resume = () => {
             </li>
           </ul>
         </div>
+      </div>
+
+      <div className="pt-[80px] flex w-full h-screen justify-center items-center">
+        <iframe
+          src={ResumePDF}
+          className="h-full w-8/12"
+          title="My Resume"
+        ></iframe>
       </div>
     </div>
   );
