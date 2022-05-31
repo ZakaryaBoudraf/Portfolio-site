@@ -7,7 +7,7 @@ import { Link as LinkRouter } from "react-router-dom";
 
 const Resume = () => {
   return (
-    <div className="w-full h-screen bg-main-dark">
+    <div className="w-full h-screen bg-main-dark z-10">
       {/* Navbar */}
       <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-main-dark text-main-light">
         <div>
