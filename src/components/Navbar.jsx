@@ -97,9 +97,9 @@ const Navbar = () => {
           </li>
         </ul>
         {/* social */}
-        <div className="hidden lg:flex fixed flex-col top-1/3 left-0">
+        <div className="hidden lg:flex fixed flex-col top-1/3 left-0 scale-100 ">
           <ul>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-main-light">
+            <li className="bg-black bg-opacity-30 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-main-light">
               <a
                 className="flex justify-between items-center w-full text-white "
                 href="https://www.linkedin.com/in/zakarya-boudraf-55006b240/"
@@ -108,7 +108,7 @@ const Navbar = () => {
                 Linkedin <FaLinkedin size={30} />
               </a>
             </li>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-main-light">
+            <li className="bg-black bg-opacity-30 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-main-light">
               <a
                 className="flex justify-between items-center w-full text-white "
                 href="https://github.com/ZakaryaBoudraf"
@@ -117,7 +117,7 @@ const Navbar = () => {
                 GitHub <FaGithub size={30} />
               </a>
             </li>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-main-light">
+            <li className="bg-black bg-opacity-30 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-main-light">
               <a
                 className="flex justify-between items-center w-full text-white "
                 href="mailto: zakaryaboudraf@gmail.com"
@@ -125,7 +125,7 @@ const Navbar = () => {
                 Email <HiOutlineMail size={30} />
               </a>
             </li>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-main-light">
+            <li className="bg-black bg-opacity-30 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-main-light">
               <LinkRouter
                 className="flex justify-between items-center w-full text-white "
                 to="/resume"
