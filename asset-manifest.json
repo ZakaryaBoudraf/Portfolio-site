@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-site/static/css/main.5733c4e5.css",
-    "main.js": "/Portfolio-site/static/js/main.62939c71.js",
+    "main.css": "/Portfolio-site/static/css/main.d859d0ec.css",
+    "main.js": "/Portfolio-site/static/js/main.7e33776b.js",
     "static/media/BoudrafZakaryaCV.pdf": "/Portfolio-site/static/media/BoudrafZakaryaCV.2a481286d211c88a0db8.pdf",
     "static/media/archi-design-screen.png": "/Portfolio-site/static/media/archi-design-screen.e45e9968b6a62d1e96d1.png",
     "static/media/PFE-screen.png": "/Portfolio-site/static/media/PFE-screen.f8af92b6ae45f62aa23e.png",
@@ -13,11 +13,11 @@
     "static/media/logoTest.png": "/Portfolio-site/static/media/logoTest.8054e36299e64aeb00ec.png",
     "static/media/javascript.png": "/Portfolio-site/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfolio-site/index.html",
-    "main.5733c4e5.css.map": "/Portfolio-site/static/css/main.5733c4e5.css.map",
-    "main.62939c71.js.map": "/Portfolio-site/static/js/main.62939c71.js.map"
+    "main.d859d0ec.css.map": "/Portfolio-site/static/css/main.d859d0ec.css.map",
+    "main.7e33776b.js.map": "/Portfolio-site/static/js/main.7e33776b.js.map"
   },
   "entrypoints": [
-    "static/css/main.5733c4e5.css",
-    "static/js/main.62939c71.js"
+    "static/css/main.d859d0ec.css",
+    "static/js/main.7e33776b.js"
   ]
 }
