@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../assets/logoTest.png";
+import Logo from "../assets/Logo.png";
 import { Link } from "react-scroll";
 import { Link as LinkRouter } from "react-router-dom";
 
@@ -13,9 +13,9 @@ const Navbar = () => {
   return (
     <div>
       {/* Navbar */}
-      <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-main-dark text-main-light">
+      <div className="z-10 fixed w-full h-[80px] flex justify-between items-center px-4 bg-main-dark text-main-light">
         <div>
-          <img src={Logo} alt="Logo Image" style={{ width: "50px" }} />
+          <img src={Logo} alt="Logo Image" style={{ width: "60px" }} />
         </div>
 
         {/* Menu */}
