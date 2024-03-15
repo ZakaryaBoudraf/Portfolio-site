@@ -12,13 +12,13 @@ const Hero = () => {
           Zakarya Boudraf
         </h1>
         <h2 className="text-4xl sm:text-6xl font-bold text-[#9d9ab0]">
-          I'm a Front-End Developer
+          I'm an IoT,Machine Learning and Front-End Developer
         </h2>
         <p className="text-gray-300 py-4 max-w-[700px]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,
-          facere quod. Ex sed dignissimos magnam officiis quisquam quod totam
-          natus in rerum, vel laborum, id explicabo similique est voluptatum
-          voluptas.
+        Hi there ~ hi 👋
+        A jack of all trades is a master of none, but oftentimes better than a master of one.
+
+        I'm a full-stack developer, with a focus on front-end development. I'm also a machine learning enthusiast and I'm currently learning IoT.
         </p>
         <div>
           <Link to="work" smooth={true} duration={500}>

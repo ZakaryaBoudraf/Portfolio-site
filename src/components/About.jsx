@@ -18,9 +18,8 @@ const About = () => {
           </div>
           <div>
             <p>
-              I am a hardworking developer working on diversifying and expanding
-              my knowledge on different technologies and programming languages
-              and frameworks.
+            I'm a full-stack developer, with a focus on front-end development.
+            I'm also a machine learning enthusiast and I'm currently learning IoT.
             </p>
           </div>
         </div>
