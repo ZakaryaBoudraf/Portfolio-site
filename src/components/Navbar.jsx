@@ -11,36 +11,37 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
+    
     <div>
       {/* Navbar */}
-      <div className="z-10 fixed w-full h-[80px] flex justify-between items-center px-4 bg-main-dark text-main-light">
+      <div className="z-10 fixed w-full h-[80px] flex justify-between items-center px-4 bg-main-dark text-main-light shadow-lg">
         <div>
           <img src={Logo} alt="Logo Image" style={{ width: "60px" }} />
         </div>
 
         {/* Menu */}
-        <ul className="hidden md:flex">
-          <li>
+        <ul className="hidden md:flex gap-2 text-lg font-bold">
+          <li className="rounded-lg hover:bg-main-light hover:text-main-dark duration-200">
             <Link to="hero" smooth={true} duration={500}>
               Home
             </Link>
           </li>
-          <li>
+          <li className="rounded-lg hover:bg-main-light hover:text-main-dark duration-200">
             <Link to="about" smooth={true} duration={500}>
               About
             </Link>
           </li>
-          <li>
+          <li className="rounded-lg hover:bg-main-light hover:text-main-dark duration-200">
             <Link to="skills" smooth={true} duration={500}>
               Skills
             </Link>
           </li>
-          <li>
+          <li className="rounded-lg hover:bg-main-light hover:text-main-dark duration-200">
             <Link to="work" smooth={true} duration={500}>
               Work
             </Link>
           </li>
-          <li>
+          <li className="rounded-lg hover:bg-main-light hover:text-main-dark duration-200">
             <Link to="contact" smooth={true} duration={500}>
               Contact
             </Link>

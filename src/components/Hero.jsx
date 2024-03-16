@@ -4,21 +4,19 @@ import Link from "react-scroll/modules/components/Link";
 
 const Hero = () => {
   return (
-    <div name="hero" className="w-full h-screen bg-main-dark">
+    <div name="hero" className="animated-bg w-full h-screen">
       {/* container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-main-light">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
           Zakarya Boudraf
         </h1>
-        <h2 className="text-4xl sm:text-6xl font-bold text-[#9d9ab0]">
+        <h2 className="text-2xl sm:text-4xl font-bold text-[#9d9ab0] mt-3">
           I'm an IoT,Machine Learning and Front-End Developer
         </h2>
         <p className="text-gray-300 py-4 max-w-[700px]">
-        Hi there ~ hi 👋
+        Hi there ~ 👋
         A jack of all trades is a master of none, but oftentimes better than a master of one.
-
-        I'm a full-stack developer, with a focus on front-end development. I'm also a machine learning enthusiast and I'm currently learning IoT.
         </p>
         <div>
           <Link to="work" smooth={true} duration={500}>
