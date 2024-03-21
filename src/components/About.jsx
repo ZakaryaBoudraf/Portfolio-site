@@ -18,7 +18,9 @@ const About = () => {
           </div>
           <div>
             <p>
-            I'm a full-stack developer, with a focus on front-end development.
+            I'm a full-stack web developer, with a focus on front-end development.<br/>
+            I have worked with machine learning, especially exploring Self-Supervised learning methods in signal processing problems.<br/>
+            I am currently learning internet of things as a part of a master's program at the University of Salerno.
             </p>
           </div>
         </div>

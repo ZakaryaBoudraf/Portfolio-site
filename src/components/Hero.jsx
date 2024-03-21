@@ -12,7 +12,7 @@ const Hero = () => {
           Zakarya Boudraf
         </h1>
         <h2 className="text-2xl sm:text-4xl font-bold text-[#9d9ab0] mt-3">
-          I'm an IoT,Machine Learning and Front-End Developer
+          I'm an Web, ML and IoT Developer
         </h2>
         <p className="text-gray-300 py-4 max-w-[700px]">
         Hi there ~ 👋
