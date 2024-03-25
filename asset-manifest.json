@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-site/static/css/main.9824c2bc.css",
-    "main.js": "/Portfolio-site/static/js/main.92284e4b.js",
+    "main.js": "/Portfolio-site/static/js/main.a72c10a2.js",
     "static/media/archi-design-screen.png": "/Portfolio-site/static/media/archi-design-screen.e45e9968b6a62d1e96d1.png",
     "static/media/Self-supervised.png": "/Portfolio-site/static/media/Self-supervised.4d88448978fcde876680.png",
     "static/media/PFE-screen.png": "/Portfolio-site/static/media/PFE-screen.f8af92b6ae45f62aa23e.png",
@@ -14,10 +14,10 @@
     "static/media/javascript.png": "/Portfolio-site/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfolio-site/index.html",
     "main.9824c2bc.css.map": "/Portfolio-site/static/css/main.9824c2bc.css.map",
-    "main.92284e4b.js.map": "/Portfolio-site/static/js/main.92284e4b.js.map"
+    "main.a72c10a2.js.map": "/Portfolio-site/static/js/main.a72c10a2.js.map"
   },
   "entrypoints": [
     "static/css/main.9824c2bc.css",
-    "static/js/main.92284e4b.js"
+    "static/js/main.a72c10a2.js"
   ]
 }
