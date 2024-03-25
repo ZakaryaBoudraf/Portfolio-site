@@ -23,7 +23,7 @@ const Work = () => {
             ></div>
             {/* title / buttons */}
             <div className="flex flex-col bg-[#0a1328] justify-center items-center py-4 mt-[-20px] rounded-b-md">
-              <span className="text-l font-bold text-white tracking-wider">
+              <span className="text-l font-bold text-white tracking-wider justify-center items-center ">
                 Self-Supervised Learning for Epileptic Seizure Detection
               </span>
               <div className="pt-2 text-center">
