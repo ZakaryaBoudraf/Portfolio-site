@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen animated-bg flex flex-col justify-center items-center p-4"
+      className="w-full h-screen animated-bg flex flex-col justify-center items-center p-4 pt-20"
     >
       <form
         action="https://getform.io/f/f660f5c7-3619-4e85-8454-6db77e24ff7e"

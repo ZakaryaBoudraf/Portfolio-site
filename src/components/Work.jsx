@@ -5,8 +5,8 @@ import SelfSupervisedLearningImg from "../assets/Self-supervised.png";
 
 const Work = () => {
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 animated-bg">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+    <div name="work" className="w-full md:h-screen text-gray-300 animated-bg ">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full pb-20">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-main-light">
             Work
@@ -23,13 +23,13 @@ const Work = () => {
             ></div>
             {/* title / buttons */}
             <div className="flex flex-col bg-[#0a1328] justify-center items-center py-4 mt-[-20px] rounded-b-md">
-              <span className="text-l font-bold text-white tracking-wider justify-center items-center ">
+            <span className="text-l font-bold text-center text-white tracking-wider">
                 Self-Supervised Learning for Epileptic Seizure Detection
               </span>
               <div className="pt-2 text-center">
                 <a href="https://drive.google.com/file/d/1FUXzTw8ZQSN8HsU2J9S4jjfMtCBnM1b2/view" target="_blank">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
-                    View Report
+                    Report
                   </button>
                 </a>
                 <a
@@ -37,7 +37,7 @@ const Work = () => {
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
-                    View Publication
+                    Publication
                   </button>
                 </a>
               </div>

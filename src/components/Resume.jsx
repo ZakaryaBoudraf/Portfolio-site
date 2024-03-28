@@ -7,7 +7,7 @@ import ResumePDF from "../assets/BoudrafZakaryaCV.pdf";
 
 const Resume = () => {
   return (
-    <div className="w-full h-screen animated-bg z-10">
+    <div className="w-full h-screen bg-main-dark animated-bg z-10">
       {/* Navbar */}
       <div className="fixed w-full h-[80px] flex justify-between items-center px-4 animated-bg text-main-light">
         <div>
