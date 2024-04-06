@@ -12,11 +12,10 @@ const Hero = () => {
           Zakarya Boudraf
         </h1>
         <h2 className="text-2xl sm:text-4xl font-bold text-[#9d9ab0] mt-3">
-          I'm an Web, ML and IoT Developer
+          I'm a Web, ML and IoT Developer.
         </h2>
         <p className="text-gray-300 py-4 max-w-[700px]">
-        Hi there ~ 👋
-        A jack of all trades is a master of none, but oftentimes better than a master of one.
+          Hi there ~ 👋
         </p>
         <div>
           <Link to="work" smooth={true} duration={500}>
