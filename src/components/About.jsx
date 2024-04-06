@@ -12,16 +12,22 @@ const About = () => {
           </div>
           <div></div>
         </div>
-        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-          <div className="sm:text-right text-2xl font-bold">
-            <p>Hi, I'm Zakarya, nice to meet you. Feel free to look around.</p>
-          </div>
-          <div>
+        <div className="max-w-[1000px] w-full h-[50vh] grid sm:grid-cols-2 gap-8 px-4">
+          <div className="text-xl font-bold flex items-center">
+            {/* <p>Hi, I'm Zakarya, nice to meet you. Feel free to look around.</p> */}
             <p>
             I'm a full-stack web developer, with a focus on front-end development.<br/>
             I have worked with machine learning, especially exploring Self-Supervised learning methods in signal processing problems.<br/>
             I am currently learning internet of things as a part of a master's program at the University of Salerno.
-            </p>
+            </p> 
+          </div>
+          <div>
+            {/* <p>
+            I'm a full-stack web developer, with a focus on front-end development.<br/>
+            I have worked with machine learning, especially exploring Self-Supervised learning methods in signal processing problems.<br/>
+            I am currently learning internet of things as a part of a master's program at the University of Salerno.
+            </p> */}
+            <iframe src='https://my.spline.design/macbookprocopy-734163396e0514f93692d739f4fb4b23/' frameborder='1' width='100%' height='100%'></iframe>
           </div>
         </div>
       </div>

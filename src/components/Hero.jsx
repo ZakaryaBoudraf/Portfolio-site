@@ -29,6 +29,7 @@ const Hero = () => {
           </Link>
         </div>
       </div>
+
     </div>
   );
 };
