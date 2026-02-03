@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ArchiDesignImg from "../assets/archi-design-screen.png";
 import PFEImg from "../assets/PFE-screen.png";
 import SelfSupervisedLearningImg from "../assets/Self-supervised.png";
@@ -8,11 +9,18 @@ import FireDetectionImg from "../assets/fire-detection.png";
 import PredictiveMaintenanceImg from "../assets/predictive-maintenance.png";
 import IntrusionDetectionImg from "../assets/intrusion-detection.png";
 import TrafficControlImg from "../assets/traffic-control.png";
+// PDF imports
+import AIArtDetectionPaper from "../assets/papers/AI-Generated Art Detection Report.pdf";
+import AIArtDetectionPresentation from "../assets/papers/presentation ai-generated art detection.pdf";
+import TrafficControlPaper from "../assets/papers/Final Project Report - Zakarya Boudraf - 0522501649 - Smart Emergency Traffic Control.pdf";
+import IntrusionDetectionPaper from "../assets/papers/Presentation - IoT Security IDS.pdf";
+import PredictiveMaintenancePaper from "../assets/papers/Systematic Literature Review Data-Centric Approaches in Industrial Predictive Maintenance.pdf";
+import JavaCRUDPaper from "../assets/papers/PFE_Licence_SI_DZ.pdf";
 
 const Work = () => {
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 animated-bg ">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full pb-20">
+    <div name="work" className="w-full min-h-screen text-gray-300 animated-bg py-20">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-start w-full h-full pb-20">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-main-light">
             Work
@@ -33,15 +41,12 @@ const Work = () => {
                 Self-Supervised Learning for Epileptic Seizure Detection
               </span>
               <div className="pt-2 text-center">
-                <a href="https://drive.google.com/file/d/1FUXzTw8ZQSN8HsU2J9S4jjfMtCBnM1b2/view" target="_blank">
+                <a href={AIArtDetectionPaper} target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
                     Report
                   </button>
                 </a>
-                <a
-                  href="https://catalogue-biblio.univ-setif.dz/opac-science/index.php?lvl=more_results&mode=keyword&user_query=Self-supervised%0D%0Aepilepsy&tags=ok"
-                  target="_blank"
-                >
+                <a href={AIArtDetectionPaper} target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
                     Publication
                   </button>
@@ -61,10 +66,7 @@ const Work = () => {
               Java CRUD application
               </span>
               <div className="pt-2 text-center">
-                <a
-                  href="https://github.com/ZakaryaBoudraf/PFE/blob/main/Projet.pdf"
-                  target="_blank"
-                >
+                <a href={JavaCRUDPaper} target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
                     Project report
                   </button>
@@ -121,9 +123,14 @@ const Work = () => {
                     Code
                   </button>
                 </a>
-                <a href="https://your-paper-link.com" target="_blank">
+                <a href={AIArtDetectionPaper} target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
                     Paper
+                  </button>
+                </a>
+                <a href={AIArtDetectionPresentation} target="_blank" rel="noopener noreferrer">
+                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
+                    Presentation
                   </button>
                 </a>
               </div>
@@ -144,7 +151,7 @@ const Work = () => {
                 IoT fire detection system with MQTT monitoring and automated response
               </p>
               <div className="pt-2 text-center">
-                <a href="https://github.com/your-username/fire-detection-iot" target="_blank">
+                <a href="https://github.com/ZakaryaBoudraf/TempControlledFan" target="_blank">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
                     Code
                   </button>
@@ -172,12 +179,7 @@ const Work = () => {
                 ML-driven predictive maintenance using industrial sensor data
               </p>
               <div className="pt-2 text-center">
-                <a href="https://github.com/your-username/predictive-maintenance" target="_blank">
-                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
-                    Code
-                  </button>
-                </a>
-                <a href="https://your-report-link.com" target="_blank">
+                <a href={PredictiveMaintenancePaper} target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
                     Report
                   </button>
@@ -200,12 +202,12 @@ const Work = () => {
                 Real-time IoT security system with embedded neural networks on STM32 Nucleo-F401RE
               </p>
               <div className="pt-2 text-center">
-                <a href="https://github.com/your-username/iot-intrusion-detection" target="_blank">
+                <a href="https://github.com/ZakaryaBoudraf/Real-time-IDS-for-STM32" target="_blank">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
                     Code
                   </button>
                 </a>
-                <a href="https://your-paper-link.com" target="_blank">
+                <a href={IntrusionDetectionPaper} target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
                     Research
                   </button>
@@ -228,14 +230,14 @@ const Work = () => {
                 Deep RL for autonomous traffic signal optimization in multi-intersection networks
               </p>
               <div className="pt-2 text-center">
-                <a href="https://github.com/your-username/smart-traffic-control" target="_blank">
+                <a href="https://github.com/ZakaryaBoudraf/Emergency-Traffic-Control" target="_blank">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
                     Code
                   </button>
                 </a>
-                <a href="https://your-simulation-link.com" target="_blank">
+                <a href={TrafficControlPaper} target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
-                    Simulation
+                    Report
                   </button>
                 </a>
               </div>
