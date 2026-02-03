@@ -1,11 +1,23 @@
 {
   "files": {
-    "main.css": "/Portfolio-site/static/css/main.4c61d2b2.css",
-    "main.js": "/Portfolio-site/static/js/main.a1230852.js",
+    "main.css": "/Portfolio-site/static/css/main.d315e7ca.css",
+    "main.js": "/Portfolio-site/static/js/main.f1050fb9.js",
+    "static/media/presentation ai-generated art detection.pdf": "/Portfolio-site/static/media/presentation ai-generated art detection.63e73dd54e9bd85cda48.pdf",
+    "static/media/AI-Generated Art Detection Report.pdf": "/Portfolio-site/static/media/AI-Generated Art Detection Report.d82e700ab4e905a5a523.pdf",
+    "static/media/PFE_Licence_SI_DZ.pdf": "/Portfolio-site/static/media/PFE_Licence_SI_DZ.6a5ee02beadb162b72db.pdf",
+    "static/media/Final Project Report - Zakarya Boudraf - 0522501649 - Smart Emergency Traffic Control.pdf": "/Portfolio-site/static/media/Final Project Report - Zakarya Boudraf - 0522501649 - Smart Emergency Traffic Control.f4e5d64e00c3af1e77f5.pdf",
+    "static/media/Presentation - Zakarya Boudraf - International School of IoT.pdf": "/Portfolio-site/static/media/Presentation - Zakarya Boudraf - International School of IoT.e15e330bc468bdfd3611.pdf",
+    "static/media/traffic-control.png": "/Portfolio-site/static/media/traffic-control.ed38d41dd6675293500b.png",
+    "static/media/Presentation - IoT Security IDS.pdf": "/Portfolio-site/static/media/Presentation - IoT Security IDS.0e212c99689af5b1df8c.pdf",
+    "static/media/BoudrafZakaryaCV.pdf": "/Portfolio-site/static/media/BoudrafZakaryaCV.61c2048b81aa71626a5a.pdf",
     "static/media/archi-design-screen.png": "/Portfolio-site/static/media/archi-design-screen.e45e9968b6a62d1e96d1.png",
+    "static/media/Systematic Literature Review Data-Centric Approaches in Industrial Predictive Maintenance.pdf": "/Portfolio-site/static/media/Systematic Literature Review Data-Centric Approaches in Industrial Predictive Maintenance.1b3c375fe75283b568c3.pdf",
+    "static/media/predictive-maintenance.png": "/Portfolio-site/static/media/predictive-maintenance.6fe3e41670ec80769cfe.png",
     "static/media/Self-supervised.png": "/Portfolio-site/static/media/Self-supervised.4d88448978fcde876680.png",
+    "static/media/intrusion-detection.png": "/Portfolio-site/static/media/intrusion-detection.1bcefaa5590731cdbfcc.png",
     "static/media/PFE-screen.png": "/Portfolio-site/static/media/PFE-screen.f8af92b6ae45f62aa23e.png",
-    "static/media/BoudrafZakaryaCV.pdf": "/Portfolio-site/static/media/BoudrafZakaryaCV.403bb4fa1c6ef3908c5e.pdf",
+    "static/media/fire-detection.png": "/Portfolio-site/static/media/fire-detection.6b1e76944d64fe73bd39.png",
+    "static/media/ai-art-detection.png": "/Portfolio-site/static/media/ai-art-detection.8d2b9bff30db9102dbf2.png",
     "static/media/react.png": "/Portfolio-site/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/github.png": "/Portfolio-site/static/media/github.3b9e32903aa89111875d.png",
     "static/media/html.png": "/Portfolio-site/static/media/html.2ba4fabc69a89a8f71e6.png",
@@ -13,11 +25,11 @@
     "static/media/css.png": "/Portfolio-site/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/Portfolio-site/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfolio-site/index.html",
-    "main.4c61d2b2.css.map": "/Portfolio-site/static/css/main.4c61d2b2.css.map",
-    "main.a1230852.js.map": "/Portfolio-site/static/js/main.a1230852.js.map"
+    "main.d315e7ca.css.map": "/Portfolio-site/static/css/main.d315e7ca.css.map",
+    "main.f1050fb9.js.map": "/Portfolio-site/static/js/main.f1050fb9.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c61d2b2.css",
-    "static/js/main.a1230852.js"
+    "static/css/main.d315e7ca.css",
+    "static/js/main.f1050fb9.js"
   ]
 }
