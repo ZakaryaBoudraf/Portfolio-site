@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-site/static/css/main.d315e7ca.css",
-    "main.js": "/Portfolio-site/static/js/main.f1050fb9.js",
+    "main.css": "/Portfolio-site/static/css/main.d74a1b25.css",
+    "main.js": "/Portfolio-site/static/js/main.1582cc4f.js",
     "static/media/presentation ai-generated art detection.pdf": "/Portfolio-site/static/media/presentation ai-generated art detection.63e73dd54e9bd85cda48.pdf",
     "static/media/AI-Generated Art Detection Report.pdf": "/Portfolio-site/static/media/AI-Generated Art Detection Report.d82e700ab4e905a5a523.pdf",
     "static/media/PFE_Licence_SI_DZ.pdf": "/Portfolio-site/static/media/PFE_Licence_SI_DZ.6a5ee02beadb162b72db.pdf",
@@ -25,11 +25,11 @@
     "static/media/css.png": "/Portfolio-site/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/Portfolio-site/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfolio-site/index.html",
-    "main.d315e7ca.css.map": "/Portfolio-site/static/css/main.d315e7ca.css.map",
-    "main.f1050fb9.js.map": "/Portfolio-site/static/js/main.f1050fb9.js.map"
+    "main.d74a1b25.css.map": "/Portfolio-site/static/css/main.d74a1b25.css.map",
+    "main.1582cc4f.js.map": "/Portfolio-site/static/js/main.1582cc4f.js.map"
   },
   "entrypoints": [
-    "static/css/main.d315e7ca.css",
-    "static/js/main.f1050fb9.js"
+    "static/css/main.d74a1b25.css",
+    "static/js/main.1582cc4f.js"
   ]
 }
