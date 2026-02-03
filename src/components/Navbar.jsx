@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+﻿import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/Logo.png";
 import { Link } from "react-scroll";
-import { Link as LinkRouter } from "react-router-dom";
+import ResumePDF from "../assets/BoudrafZakaryaCV.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -129,12 +129,14 @@ const Navbar = () => {
               </a>
             </li>
             <li className="bg-black bg-opacity-30 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-main-light">
-              <LinkRouter
-                className="flex justify-between items-center w-full text-white "
-                to="/resume"
+              <a
+                className="flex justify-between items-center w-full text-white"
+                href={ResumePDF}
+                target="_blank"
+                rel="noreferrer"
               >
                 Resume <BsFillPersonLinesFill size={30} />
-              </LinkRouter>
+              </a>
             </li>
           </ul>
         </div>
@@ -144,3 +146,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

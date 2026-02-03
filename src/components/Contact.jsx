@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import { Link as LinkRouter } from "react-router-dom";
+import ResumePDF from "../assets/BoudrafZakaryaCV.pdf";
 
 const Contact = () => {
   return (
@@ -75,12 +75,14 @@ const Contact = () => {
             </a>
           </li>
           <li className="flex justify-between items-center duration-150 hover:scale-110">
-            <LinkRouter
+            <a
               className="flex flex-col justify-between items-center w-full text-white"
-              to="/resume"
+              href={ResumePDF}
+              target="_blank"
+              rel="noreferrer"
             >
               <BsFillPersonLinesFill size={50} className="mb-2" /> Resume
-            </LinkRouter>
+            </a>
           </li>
         </ul>
       </div>
