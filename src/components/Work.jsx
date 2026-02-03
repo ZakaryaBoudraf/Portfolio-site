@@ -29,82 +29,86 @@ const Work = () => {
         </div>
 
         <div className="grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
-          {/* card */}
+          {/* 1. Data-Centric Industrial Predictive Maintenance */}
           <div>
             <div
-              style={{ backgroundImage: `url(${SelfSupervisedLearningImg})` }}
+              style={{ backgroundImage: `url(${PredictiveMaintenanceImg})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             ></div>
-            {/* title / buttons */}
             <div className="flex flex-col bg-[#0a1328] justify-center items-center py-4 mt-[-20px] rounded-b-md">
-            <span className="text-l font-bold text-center text-white tracking-wider">
-                Self-Supervised Learning for Epileptic Seizure Detection
+              <span className="text-l font-bold text-center text-white tracking-wider">
+                Data-Centric Industrial Predictive Maintenance (Systematic Literature Review)
               </span>
+              <p className="text-sm text-gray-300 text-center px-2 py-1">
+                ML-driven predictive maintenance using industrial sensor data
+              </p>
               <div className="pt-2 text-center">
-                <a href={AIArtDetectionPaper} target="_blank" rel="noopener noreferrer">
+                <a href={PredictiveMaintenancePaper} target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
                     Report
                   </button>
                 </a>
-                <a href={AIArtDetectionPaper} target="_blank" rel="noopener noreferrer">
-                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
-                    Publication
-                  </button>
-                </a>
               </div>
             </div>
           </div>
-          {/* card */}
+
+          {/* 2. IoT Intrusion Detection System with Embedded Neural Networks */}
           <div>
             <div
-              style={{ backgroundImage: `url(${PFEImg})` }}
+              style={{ backgroundImage: `url(${IntrusionDetectionImg})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             ></div>
-            {/* title / buttons */}
             <div className="flex flex-col bg-[#0a1328] justify-center items-center py-4 mt-[-20px] rounded-b-md">
-              <span className="text-l font-bold text-white tracking-wider">
-              Java CRUD application
+              <span className="text-l font-bold text-center text-white tracking-wider">
+                IoT Intrusion Detection & NN Anomaly Detection
               </span>
+              <p className="text-sm text-gray-300 text-center px-2 py-1">
+                Real-time IoT security system with embedded neural networks on STM32 Nucleo-F401RE
+              </p>
               <div className="pt-2 text-center">
-                <a href={JavaCRUDPaper} target="_blank" rel="noopener noreferrer">
-                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
-                    Project report
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* card */}
-          <div>
-            <div
-              style={{ backgroundImage: `url(${ArchiDesignImg})` }}
-              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-            ></div>
-            {/* title / buttons */}
-            <div className="flex flex-col bg-[#0a1328] justify-center items-center py-4 mt-[-20px] rounded-b-md">
-              <span className="text-l font-bold text-white tracking-wider">
-                Archi-Design studio site
-              </span>
-              <div className="pt-2 text-center">
-                <a href="https://archi-design.netlify.app/" target="_blank">
-                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/ZakaryaBoudraf/archi-design"
-                  target="_blank"
-                >
+                <a href="https://github.com/ZakaryaBoudraf/Real-time-IDS-for-STM32" target="_blank">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
                     Code
+                  </button>
+                </a>
+                <a href={IntrusionDetectionPaper} target="_blank" rel="noopener noreferrer">
+                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
+                    Research
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* 3. Smart Traffic Control */}
+          <div>
+            <div
+              style={{ backgroundImage: `url(${TrafficControlImg})` }}
+              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            ></div>
+            <div className="flex flex-col bg-[#0a1328] justify-center items-center py-4 mt-[-20px] rounded-b-md">
+              <span className="text-l font-bold text-center text-white tracking-wider">
+                Smart Emergency Traffic Control
+              </span>
+              <p className="text-sm text-gray-300 text-center px-2 py-1">
+                Deep RL for autonomous traffic signal optimization in multi-intersection networks
+              </p>
+              <div className="pt-2 text-center">
+                <a href="https://github.com/ZakaryaBoudraf/Emergency-Traffic-Control" target="_blank">
+                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
+                    Code
+                  </button>
+                </a>
+                <a href={TrafficControlPaper} target="_blank" rel="noopener noreferrer">
+                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
+                    Report
                   </button>
                 </a>
               </div>
             </div>
           </div>
           
-          {/* University of Salerno IoT Master's Projects */}
-          {/* AI-Generated Art Detection */}
+          {/* 4. AI-Generated Art Detection */}
           <div>
             <div
               style={{ backgroundImage: `url(${AIArtDetectionImg})` }}
@@ -137,7 +141,7 @@ const Work = () => {
             </div>
           </div>
 
-          {/* Fire Detection System */}
+          {/* 5. Fire Detection System */}
           <div>
             <div
               style={{ backgroundImage: `url(${FireDetectionImg})` }}
@@ -165,79 +169,76 @@ const Work = () => {
             </div>
           </div>
 
-          {/* Predictive Maintenance */}
+          {/* 6. Self-Supervised Learning */}
           <div>
             <div
-              style={{ backgroundImage: `url(${PredictiveMaintenanceImg})` }}
+              style={{ backgroundImage: `url(${SelfSupervisedLearningImg})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             ></div>
+            {/* title / buttons */}
             <div className="flex flex-col bg-[#0a1328] justify-center items-center py-4 mt-[-20px] rounded-b-md">
-              <span className="text-l font-bold text-center text-white tracking-wider">
-                Data-Centric Industrial Predictive Maintenance
+            <span className="text-l font-bold text-center text-white tracking-wider">
+                Self-Supervised Learning for Epileptic Seizure Detection
               </span>
-              <p className="text-sm text-gray-300 text-center px-2 py-1">
-                ML-driven predictive maintenance using industrial sensor data
-              </p>
               <div className="pt-2 text-center">
-                <a href={PredictiveMaintenancePaper} target="_blank" rel="noopener noreferrer">
+                <a href={AIArtDetectionPaper} target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
                     Report
+                  </button>
+                </a>
+                <a href={AIArtDetectionPaper} target="_blank" rel="noopener noreferrer">
+                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
+                    Publication
                   </button>
                 </a>
               </div>
             </div>
           </div>
 
-          {/* IoT Intrusion Detection System with Embedded Neural Networks */}
+          {/* 7. Java CRUD Application */}
           <div>
             <div
-              style={{ backgroundImage: `url(${IntrusionDetectionImg})` }}
+              style={{ backgroundImage: `url(${PFEImg})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             ></div>
+            {/* title / buttons */}
             <div className="flex flex-col bg-[#0a1328] justify-center items-center py-4 mt-[-20px] rounded-b-md">
-              <span className="text-l font-bold text-center text-white tracking-wider">
-                IoT Intrusion Detection & NN Anomaly Detection
+              <span className="text-l font-bold text-white tracking-wider">
+              Java CRUD application
               </span>
-              <p className="text-sm text-gray-300 text-center px-2 py-1">
-                Real-time IoT security system with embedded neural networks on STM32 Nucleo-F401RE
-              </p>
               <div className="pt-2 text-center">
-                <a href="https://github.com/ZakaryaBoudraf/Real-time-IDS-for-STM32" target="_blank">
+                <a href={JavaCRUDPaper} target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
-                    Code
-                  </button>
-                </a>
-                <a href={IntrusionDetectionPaper} target="_blank" rel="noopener noreferrer">
-                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
-                    Research
+                    Project report
                   </button>
                 </a>
               </div>
             </div>
           </div>
 
-          {/* Smart Traffic Control */}
+          {/* 8. Archi-Design Studio Site */}
           <div>
             <div
-              style={{ backgroundImage: `url(${TrafficControlImg})` }}
+              style={{ backgroundImage: `url(${ArchiDesignImg})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             ></div>
+            {/* title / buttons */}
             <div className="flex flex-col bg-[#0a1328] justify-center items-center py-4 mt-[-20px] rounded-b-md">
-              <span className="text-l font-bold text-center text-white tracking-wider">
-                Smart Emergency Traffic Control
+              <span className="text-l font-bold text-white tracking-wider">
+                Archi-Design studio site
               </span>
-              <p className="text-sm text-gray-300 text-center px-2 py-1">
-                Deep RL for autonomous traffic signal optimization in multi-intersection networks
-              </p>
               <div className="pt-2 text-center">
-                <a href="https://github.com/ZakaryaBoudraf/Emergency-Traffic-Control" target="_blank">
+                <a href="https://archi-design.netlify.app/" target="_blank">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
-                    Code
+                    Demo
                   </button>
                 </a>
-                <a href={TrafficControlPaper} target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://github.com/ZakaryaBoudraf/archi-design"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
-                    Report
+                    Code
                   </button>
                 </a>
               </div>
