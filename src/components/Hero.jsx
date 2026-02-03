@@ -1,6 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import Link from "react-scroll/modules/components/Link";
+import ResumePDF from "../assets/BoudrafZakaryaCV.pdf";
 
 const Hero = () => {
   return (
@@ -17,7 +18,7 @@ const Hero = () => {
         <p className="text-nes-dark py-4 max-w-[700px] text-lg leading-relaxed">
           Hi there ~ 👋
         </p>
-        <div>
+        <div className="flex flex-col sm:flex-row gap-4">
           <Link to="work" smooth={true} duration={500}>
             <button className="group text-nes-dark bg-nes-white border-2 border-nes-dark px-6 py-3 my-2 flex items-center hover:bg-nes-orange hover:border-nes-orange hover:text-nes-white duration-300 transition-all font-medium uppercase tracking-wide">
               View work
@@ -26,6 +27,14 @@ const Hero = () => {
               </span>
             </button>
           </Link>
+          <a href={ResumePDF} target="_blank" rel="noopener noreferrer">
+            <button className="group text-nes-dark bg-nes-white border-2 border-nes-dark px-6 py-3 my-2 flex items-center hover:bg-nes-orange hover:border-nes-orange hover:text-nes-white duration-300 transition-all font-medium uppercase tracking-wide">
+              View CV
+              <span className="group-hover:ml-2 duration-300 transition-all">
+                <HiArrowNarrowRight size={20} className="ml-3" />
+              </span>
+            </button>
+          </a>
         </div>
       </div>
     </div>
