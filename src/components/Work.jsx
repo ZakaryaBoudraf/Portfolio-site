@@ -15,6 +15,7 @@ import AIArtDetectionPresentation from "../assets/papers/presentation ai-generat
 import TrafficControlPaper from "../assets/papers/Final Project Report - Zakarya Boudraf - 0522501649 - Smart Emergency Traffic Control.pdf";
 import IntrusionDetectionPaper from "../assets/papers/Presentation - IoT Security IDS.pdf";
 import PredictiveMaintenancePaper from "../assets/papers/Systematic Literature Review Data-Centric Approaches in Industrial Predictive Maintenance.pdf";
+import PredictiveMaintenancePresentation from "../assets/papers/Presentation - Zakarya Boudraf - International School of IoT.pdf";
 import JavaCRUDPaper from "../assets/papers/PFE_Licence_SI_DZ.pdf";
 
 const Work = () => {
@@ -46,6 +47,11 @@ const Work = () => {
                 <a href={PredictiveMaintenancePaper} target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
                     Report
+                  </button>
+                </a>
+                <a href={PredictiveMaintenancePresentation} target="_blank" rel="noopener noreferrer">
+                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
+                    Presentation
                   </button>
                 </a>
               </div>
@@ -160,7 +166,7 @@ const Work = () => {
                     Code
                   </button>
                 </a>
-                <a href="https://your-demo-link.com" target="_blank">
+                <a href="https://www.tinkercad.com/things/0wApEXWgAPd-temperature-controlled-dc-motor" target="_blank">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
                     Demo
                   </button>
