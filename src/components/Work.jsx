@@ -12,6 +12,7 @@ import TrafficControlImg from "../assets/traffic-control.png";
 import AIArtDetectionPaper from "../assets/papers/AI-Generated Art Detection Report.pdf";
 import AIArtDetectionPresentation from "../assets/papers/presentation ai-generated art detection.pdf";
 import TrafficControlPaper from "../assets/papers/Final Project Report - Zakarya Boudraf - 0522501649 - Smart Emergency Traffic Control.pdf";
+import TrafficControlPresentation from "../assets/papers/Presentation for Smart Emergency Traffic Control.pdf";
 import IntrusionDetectionPaper from "../assets/papers/Presentation - IoT Security IDS.pdf";
 import PredictiveMaintenancePaper from "../assets/papers/Systematic Literature Review Data-Centric Approaches in Industrial Predictive Maintenance.pdf";
 import PredictiveMaintenancePresentation from "../assets/papers/Presentation - Zakarya Boudraf - International School of IoT.pdf";
@@ -19,37 +20,39 @@ import JavaCRUDPaper from "../assets/papers/PFE_Licence_SI_DZ.pdf";
 
 const Work = () => {
   return (
-    <div name="work" className="w-full min-h-screen text-gray-300 animated-bg py-20">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-start w-full h-full pb-20">
-        <div>
-          <p className="text-4xl font-bold inline border-b-4 border-main-light">
+    <div name="work" className="w-full min-h-screen bg-nes-white py-20">
+      <div className="max-w-[1200px] mx-auto p-4 flex flex-col justify-start w-full h-full pb-20">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold text-nes-dark border-b-4 border-nes-orange inline-block pb-2 uppercase tracking-wide">
             Work
-          </p>
-          <p className="py-6">{/* Check out my projects from University of Salerno & more! */}</p>
+          </h2>
         </div>
 
         <div className="grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
           {/* 1. Data-Centric Industrial Predictive Maintenance */}
-          <div>
-            <div
-              style={{ backgroundImage: `url(${PredictiveMaintenanceImg})` }}
-              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-            ></div>
-            <div className="flex flex-col bg-[#0a1328] justify-center items-center py-4 mt-[-20px] rounded-b-md">
-              <span className="text-l font-bold text-center text-white tracking-wider">
+          <div className="bg-nes-light border-2 border-nes-dark hover:border-nes-orange transition-all duration-300">
+            <div className="h-48 overflow-hidden">
+              <img 
+                src={PredictiveMaintenanceImg} 
+                alt="Predictive Maintenance" 
+                className="w-full h-full object-contain bg-nes-white"
+              />
+            </div>
+            <div className="p-6">
+              <h3 className="text-lg font-bold text-nes-dark mb-3 text-center uppercase tracking-wide">
                 Data-Centric Industrial Predictive Maintenance (Systematic Literature Review)
-              </span>
-              <p className="text-sm text-gray-300 text-center px-2 py-1">
+              </h3>
+              <p className="text-sm text-nes-dark text-center mb-4">
                 ML-driven predictive maintenance using industrial sensor data
               </p>
-              <div className="pt-2 text-center">
+              <div className="flex flex-wrap justify-center gap-2">
                 <a href={PredictiveMaintenancePaper} target="_blank" rel="noopener noreferrer">
-                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
+                  <button className="bg-nes-white text-nes-dark border-2 border-nes-dark px-4 py-2 hover:bg-nes-orange hover:text-nes-white hover:border-nes-orange transition-all duration-300 font-medium uppercase text-sm">
                     Report
                   </button>
                 </a>
                 <a href={PredictiveMaintenancePresentation} target="_blank" rel="noopener noreferrer">
-                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
+                  <button className="bg-nes-white text-nes-dark border-2 border-nes-dark px-4 py-2 hover:bg-nes-orange hover:text-nes-white hover:border-nes-orange transition-all duration-300 font-medium uppercase text-sm">
                     Presentation
                   </button>
                 </a>
@@ -58,26 +61,29 @@ const Work = () => {
           </div>
 
           {/* 2. IoT Intrusion Detection System with Embedded Neural Networks */}
-          <div>
-            <div
-              style={{ backgroundImage: `url(${IntrusionDetectionImg})` }}
-              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-            ></div>
-            <div className="flex flex-col bg-[#0a1328] justify-center items-center py-4 mt-[-20px] rounded-b-md">
-              <span className="text-l font-bold text-center text-white tracking-wider">
+          <div className="bg-nes-light border-2 border-nes-dark hover:border-nes-orange transition-all duration-300">
+            <div className="h-48 overflow-hidden">
+              <img 
+                src={IntrusionDetectionImg} 
+                alt="Intrusion Detection" 
+                className="w-full h-full object-contain bg-nes-white"
+              />
+            </div>
+            <div className="p-6">
+              <h3 className="text-lg font-bold text-nes-dark mb-3 text-center uppercase tracking-wide">
                 IoT Intrusion Detection & NN Anomaly Detection
-              </span>
-              <p className="text-sm text-gray-300 text-center px-2 py-1">
+              </h3>
+              <p className="text-sm text-nes-dark text-center mb-4">
                 Real-time IoT security system with embedded neural networks on STM32 Nucleo-F401RE
               </p>
-              <div className="pt-2 text-center">
+              <div className="flex flex-wrap justify-center gap-2">
                 <a href="https://github.com/ZakaryaBoudraf/Real-time-IDS-for-STM32" target="_blank" rel="noreferrer">
-                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
+                  <button className="bg-nes-white text-nes-dark border-2 border-nes-dark px-4 py-2 hover:bg-nes-orange hover:text-nes-white hover:border-nes-orange transition-all duration-300 font-medium uppercase text-sm">
                     Code
                   </button>
                 </a>
                 <a href={IntrusionDetectionPaper} target="_blank" rel="noopener noreferrer">
-                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
+                  <button className="bg-nes-white text-nes-dark border-2 border-nes-dark px-4 py-2 hover:bg-nes-orange hover:text-nes-white hover:border-nes-orange transition-all duration-300 font-medium uppercase text-sm">
                     Research
                   </button>
                 </a>
@@ -86,27 +92,35 @@ const Work = () => {
           </div>
 
           {/* 3. Smart Traffic Control */}
-          <div>
-            <div
-              style={{ backgroundImage: `url(${TrafficControlImg})` }}
-              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-            ></div>
-            <div className="flex flex-col bg-[#0a1328] justify-center items-center py-4 mt-[-20px] rounded-b-md">
-              <span className="text-l font-bold text-center text-white tracking-wider">
+          <div className="bg-nes-light border-2 border-nes-dark hover:border-nes-orange transition-all duration-300">
+            <div className="h-48 overflow-hidden">
+              <img 
+                src={TrafficControlImg} 
+                alt="Traffic Control" 
+                className="w-full h-full object-contain bg-nes-white"
+              />
+            </div>
+            <div className="p-6">
+              <h3 className="text-lg font-bold text-nes-dark mb-3 text-center uppercase tracking-wide">
                 Smart Emergency Traffic Control
-              </span>
-              <p className="text-sm text-gray-300 text-center px-2 py-1">
+              </h3>
+              <p className="text-sm text-nes-dark text-center mb-4">
                 Deep RL for autonomous traffic signal optimization in multi-intersection networks
               </p>
-              <div className="pt-2 text-center">
+              <div className="flex flex-wrap justify-center gap-2">
                 <a href="https://github.com/ZakaryaBoudraf/Emergency-Traffic-Control" target="_blank" rel="noreferrer">
-                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
+                  <button className="bg-nes-white text-nes-dark border-2 border-nes-dark px-4 py-2 hover:bg-nes-orange hover:text-nes-white hover:border-nes-orange transition-all duration-300 font-medium uppercase text-sm">
                     Code
                   </button>
                 </a>
                 <a href={TrafficControlPaper} target="_blank" rel="noopener noreferrer">
-                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
+                  <button className="bg-nes-white text-nes-dark border-2 border-nes-dark px-4 py-2 hover:bg-nes-orange hover:text-nes-white hover:border-nes-orange transition-all duration-300 font-medium uppercase text-sm">
                     Report
+                  </button>
+                </a>
+                <a href={TrafficControlPresentation} target="_blank" rel="noopener noreferrer">
+                  <button className="bg-nes-white text-nes-dark border-2 border-nes-dark px-4 py-2 hover:bg-nes-orange hover:text-nes-white hover:border-nes-orange transition-all duration-300 font-medium uppercase text-sm">
+                    Presentation
                   </button>
                 </a>
               </div>
@@ -114,31 +128,34 @@ const Work = () => {
           </div>
           
           {/* 4. AI-Generated Art Detection */}
-          <div>
-            <div
-              style={{ backgroundImage: `url(${AIArtDetectionImg})` }}
-              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-            ></div>
-            <div className="flex flex-col bg-[#0a1328] justify-center items-center py-4 mt-[-20px] rounded-b-md">
-              <span className="text-l font-bold text-center text-white tracking-wider">
+          <div className="bg-nes-light border-2 border-nes-dark hover:border-nes-orange transition-all duration-300">
+            <div className="h-48 overflow-hidden">
+              <img 
+                src={AIArtDetectionImg} 
+                alt="AI Art Detection" 
+                className="w-full h-full object-contain bg-nes-white"
+              />
+            </div>
+            <div className="p-6">
+              <h3 className="text-lg font-bold text-nes-dark mb-3 text-center uppercase tracking-wide">
                 AI-Generated Art Detection
-              </span>
-              <p className="text-sm text-gray-300 text-center px-2 py-1">
+              </h3>
+              <p className="text-sm text-nes-dark text-center mb-4">
                 Deep learning model to detect AI-generated artwork using CNNs
               </p>
-              <div className="pt-2 text-center">
+              <div className="flex flex-wrap justify-center gap-2">
                 <a href="https://github.com/your-username/ai-art-detection" target="_blank" rel="noreferrer">
-                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
+                  <button className="bg-nes-white text-nes-dark border-2 border-nes-dark px-4 py-2 hover:bg-nes-orange hover:text-nes-white hover:border-nes-orange transition-all duration-300 font-medium uppercase text-sm">
                     Code
                   </button>
                 </a>
                 <a href={AIArtDetectionPaper} target="_blank" rel="noopener noreferrer">
-                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
+                  <button className="bg-nes-white text-nes-dark border-2 border-nes-dark px-4 py-2 hover:bg-nes-orange hover:text-nes-white hover:border-nes-orange transition-all duration-300 font-medium uppercase text-sm">
                     Paper
                   </button>
                 </a>
                 <a href={AIArtDetectionPresentation} target="_blank" rel="noopener noreferrer">
-                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
+                  <button className="bg-nes-white text-nes-dark border-2 border-nes-dark px-4 py-2 hover:bg-nes-orange hover:text-nes-white hover:border-nes-orange transition-all duration-300 font-medium uppercase text-sm">
                     Presentation
                   </button>
                 </a>
@@ -147,26 +164,29 @@ const Work = () => {
           </div>
 
           {/* 5. Fire Detection System */}
-          <div>
-            <div
-              style={{ backgroundImage: `url(${FireDetectionImg})` }}
-              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-            ></div>
-            <div className="flex flex-col bg-[#0a1328] justify-center items-center py-4 mt-[-20px] rounded-b-md">
-              <span className="text-l font-bold text-center text-white tracking-wider">
+          <div className="bg-nes-light border-2 border-nes-dark hover:border-nes-orange transition-all duration-300">
+            <div className="h-48 overflow-hidden">
+              <img 
+                src={FireDetectionImg} 
+                alt="Fire Detection" 
+                className="w-full h-full object-contain bg-nes-white"
+              />
+            </div>
+            <div className="p-6">
+              <h3 className="text-lg font-bold text-nes-dark mb-3 text-center uppercase tracking-wide">
                 Fire Detection with Automated Fan Control
-              </span>
-              <p className="text-sm text-gray-300 text-center px-2 py-1">
+              </h3>
+              <p className="text-sm text-nes-dark text-center mb-4">
                 IoT fire detection system with MQTT monitoring and automated response
               </p>
-              <div className="pt-2 text-center">
+              <div className="flex flex-wrap justify-center gap-2">
                 <a href="https://github.com/ZakaryaBoudraf/TempControlledFan" target="_blank" rel="noreferrer">
-                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
+                  <button className="bg-nes-white text-nes-dark border-2 border-nes-dark px-4 py-2 hover:bg-nes-orange hover:text-nes-white hover:border-nes-orange transition-all duration-300 font-medium uppercase text-sm">
                     Code
                   </button>
                 </a>
                 <a href="https://www.tinkercad.com/things/0wApEXWgAPd-temperature-controlled-dc-motor" target="_blank" rel="noreferrer">
-                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
+                  <button className="bg-nes-white text-nes-dark border-2 border-nes-dark px-4 py-2 hover:bg-nes-orange hover:text-nes-white hover:border-nes-orange transition-all duration-300 font-medium uppercase text-sm">
                     Demo
                   </button>
                 </a>
@@ -175,24 +195,26 @@ const Work = () => {
           </div>
 
           {/* 6. Self-Supervised Learning */}
-          <div>
-            <div
-              style={{ backgroundImage: `url(${SelfSupervisedLearningImg})` }}
-              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-            ></div>
-            {/* title / buttons */}
-            <div className="flex flex-col bg-[#0a1328] justify-center items-center py-4 mt-[-20px] rounded-b-md">
-            <span className="text-l font-bold text-center text-white tracking-wider">
+          <div className="bg-nes-light border-2 border-nes-dark hover:border-nes-orange transition-all duration-300">
+            <div className="h-48 overflow-hidden">
+              <img 
+                src={SelfSupervisedLearningImg} 
+                alt="Self-Supervised Learning" 
+                className="w-full h-full object-contain bg-nes-white"
+              />
+            </div>
+            <div className="p-6">
+              <h3 className="text-lg font-bold text-nes-dark mb-3 text-center uppercase tracking-wide">
                 Self-Supervised Learning for Epileptic Seizure Detection
-              </span>
-              <div className="pt-2 text-center">
+              </h3>
+              <div className="flex flex-wrap justify-center gap-2">
                 <a href={AIArtDetectionPaper} target="_blank" rel="noopener noreferrer">
-                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
+                  <button className="bg-nes-white text-nes-dark border-2 border-nes-dark px-4 py-2 hover:bg-nes-orange hover:text-nes-white hover:border-nes-orange transition-all duration-300 font-medium uppercase text-sm">
                     Report
                   </button>
                 </a>
                 <a href={AIArtDetectionPaper} target="_blank" rel="noopener noreferrer">
-                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
+                  <button className="bg-nes-white text-nes-dark border-2 border-nes-dark px-4 py-2 hover:bg-nes-orange hover:text-nes-white hover:border-nes-orange transition-all duration-300 font-medium uppercase text-sm">
                     Publication
                   </button>
                 </a>
@@ -201,20 +223,22 @@ const Work = () => {
           </div>
 
           {/* 7. Java CRUD Application */}
-          <div>
-            <div
-              style={{ backgroundImage: `url(${PFEImg})` }}
-              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-            ></div>
-            {/* title / buttons */}
-            <div className="flex flex-col bg-[#0a1328] justify-center items-center py-4 mt-[-20px] rounded-b-md">
-              <span className="text-l font-bold text-white tracking-wider">
-              Java CRUD application
-              </span>
-              <div className="pt-2 text-center">
+          <div className="bg-nes-light border-2 border-nes-dark hover:border-nes-orange transition-all duration-300">
+            <div className="h-48 overflow-hidden">
+              <img 
+                src={PFEImg} 
+                alt="Java CRUD Application" 
+                className="w-full h-full object-contain bg-nes-white"
+              />
+            </div>
+            <div className="p-6">
+              <h3 className="text-lg font-bold text-nes-dark mb-3 text-center uppercase tracking-wide">
+                Java CRUD Application
+              </h3>
+              <div className="flex flex-wrap justify-center gap-2">
                 <a href={JavaCRUDPaper} target="_blank" rel="noopener noreferrer">
-                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
-                    Project report
+                  <button className="bg-nes-white text-nes-dark border-2 border-nes-dark px-4 py-2 hover:bg-nes-orange hover:text-nes-white hover:border-nes-orange transition-all duration-300 font-medium uppercase text-sm">
+                    Project Report
                   </button>
                 </a>
               </div>
@@ -222,28 +246,26 @@ const Work = () => {
           </div>
 
           {/* 8. Archi-Design Studio Site */}
-          <div>
-            <div
-              style={{ backgroundImage: `url(${ArchiDesignImg})` }}
-              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-            ></div>
-            {/* title / buttons */}
-            <div className="flex flex-col bg-[#0a1328] justify-center items-center py-4 mt-[-20px] rounded-b-md">
-              <span className="text-l font-bold text-white tracking-wider">
-                Archi-Design studio site
-              </span>
-              <div className="pt-2 text-center">
+          <div className="bg-nes-light border-2 border-nes-dark hover:border-nes-orange transition-all duration-300">
+            <div className="h-48 overflow-hidden">
+              <img 
+                src={ArchiDesignImg} 
+                alt="Archi-Design Studio" 
+                className="w-full h-full object-contain bg-nes-white"
+              />
+            </div>
+            <div className="p-6">
+              <h3 className="text-lg font-bold text-nes-dark mb-3 text-center uppercase tracking-wide">
+                Archi-Design Studio Site
+              </h3>
+              <div className="flex flex-wrap justify-center gap-2">
                 <a href="https://archi-design.netlify.app/" target="_blank" rel="noreferrer">
-                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
+                  <button className="bg-nes-white text-nes-dark border-2 border-nes-dark px-4 py-2 hover:bg-nes-orange hover:text-nes-white hover:border-nes-orange transition-all duration-300 font-medium uppercase text-sm">
                     Demo
                   </button>
                 </a>
-                <a
-                  href="https://github.com/ZakaryaBoudraf/archi-design"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
+                <a href="https://github.com/ZakaryaBoudraf/archi-design" target="_blank" rel="noreferrer">
+                  <button className="bg-nes-white text-nes-dark border-2 border-nes-dark px-4 py-2 hover:bg-nes-orange hover:text-nes-white hover:border-nes-orange transition-all duration-300 font-medium uppercase text-sm">
                     Code
                   </button>
                 </a>

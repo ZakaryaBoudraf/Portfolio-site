@@ -5,11 +5,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "main-dark": "#0d1935",
-        "main-light": "#796eff",
+        "nes-dark": "#424242",
+        "nes-light": "#E8E8E8",
+        "nes-orange": "#FC5230",
+        "nes-white": "#F5F5F5",
       },
       fontFamily: {
-        "open-sans": ["Open Sans", "sans-serif"],
+        "montserrat": ["Montserrat", "sans-serif"],
       },
     },
   },

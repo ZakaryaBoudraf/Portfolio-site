@@ -8,40 +8,39 @@ import Tailwind from "../assets/tailwind.png";
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-screen animated-bg text-gray-300">
+    <div name="skills" className="w-full h-screen bg-nes-light">
       {/* container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div>
-          <p className="text-4xl font-bold inline border-b-4 border-main-light">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold text-nes-dark border-b-4 border-nes-orange inline-block pb-2 uppercase tracking-wide">
             Skills
-          </p>
-          <p className="py-4">{/* These are the technologies I've worked with */}</p>
+          </h2>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-          <div className="shadow-md shadow-[#05102a] hover:scale-110 duration-200 bg-main-dark pt-4 rounded-lg">
-            <img src={HTML} alt="HTML icon" className="w-20 mx-auto" />
-            <p className="my-4">HTML</p>
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8">
+          <div className="bg-nes-white border-2 border-nes-dark hover:border-nes-orange hover:bg-nes-orange hover:text-nes-white duration-300 transition-all pt-6 pb-4 px-4 group">
+            <img src={HTML} alt="HTML icon" className="w-16 mx-auto mb-4 group-hover:brightness-0 group-hover:invert transition-all duration-300" />
+            <p className="font-bold uppercase tracking-wide">HTML</p>
           </div>
-          <div className="shadow-md shadow-[#05102a] hover:scale-110 duration-200 bg-main-dark pt-4 rounded-lg">
-            <img src={CSS} alt="HTML icon" className="w-20 mx-auto" />
-            <p className="my-4">CSS</p>
+          <div className="bg-nes-white border-2 border-nes-dark hover:border-nes-orange hover:bg-nes-orange hover:text-nes-white duration-300 transition-all pt-6 pb-4 px-4 group">
+            <img src={CSS} alt="CSS icon" className="w-16 mx-auto mb-4 group-hover:brightness-0 group-hover:invert transition-all duration-300" />
+            <p className="font-bold uppercase tracking-wide">CSS</p>
           </div>
-          <div className="shadow-md shadow-[#05102a] hover:scale-110 duration-200 bg-main-dark pt-4 rounded-lg">
-            <img src={JavaScript} alt="HTML icon" className="w-20 mx-auto" />
-            <p className="my-4">JavaScript</p>
+          <div className="bg-nes-white border-2 border-nes-dark hover:border-nes-orange hover:bg-nes-orange hover:text-nes-white duration-300 transition-all pt-6 pb-4 px-4 group">
+            <img src={JavaScript} alt="JavaScript icon" className="w-16 mx-auto mb-4 group-hover:brightness-0 group-hover:invert transition-all duration-300" />
+            <p className="font-bold uppercase tracking-wide">JavaScript</p>
           </div>
-          <div className="shadow-md shadow-[#05102a] hover:scale-110 duration-200 bg-main-dark pt-4 rounded-lg">
-            <img src={ReactImg} alt="HTML icon" className="w-20 mx-auto" />
-            <p className="my-4">React</p>
+          <div className="bg-nes-white border-2 border-nes-dark hover:border-nes-orange hover:bg-nes-orange hover:text-nes-white duration-300 transition-all pt-6 pb-4 px-4 group">
+            <img src={ReactImg} alt="React icon" className="w-16 mx-auto mb-4 group-hover:brightness-0 group-hover:invert transition-all duration-300" />
+            <p className="font-bold uppercase tracking-wide">React</p>
           </div>
-          <div className="shadow-md shadow-[#05102a] hover:scale-110 duration-200 bg-main-dark pt-4 rounded-lg">
-            <img src={GitHub} alt="HTML icon" className="w-20 mx-auto" />
-            <p className="my-4">GitHub</p>
+          <div className="bg-nes-white border-2 border-nes-dark hover:border-nes-orange hover:bg-nes-orange hover:text-nes-white duration-300 transition-all pt-6 pb-4 px-4 group">
+            <img src={GitHub} alt="GitHub icon" className="w-16 mx-auto mb-4 group-hover:brightness-0 group-hover:invert transition-all duration-300" />
+            <p className="font-bold uppercase tracking-wide">GitHub</p>
           </div>
-          <div className="shadow-md shadow-[#05102a] hover:scale-110 duration-200 bg-main-dark pt-4 rounded-lg">
-            <img src={Tailwind} alt="HTML icon" className="w-20 mx-auto" />
-            <p className="my-4">Tailwind</p>
+          <div className="bg-nes-white border-2 border-nes-dark hover:border-nes-orange hover:bg-nes-orange hover:text-nes-white duration-300 transition-all pt-6 pb-4 px-4 group">
+            <img src={Tailwind} alt="Tailwind icon" className="w-16 mx-auto mb-4 group-hover:brightness-0 group-hover:invert transition-all duration-300" />
+            <p className="font-bold uppercase tracking-wide">Tailwind</p>
           </div>
           {/*todo: ADD JAVA PYTHON AND MORE */}
         </div>

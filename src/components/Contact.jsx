@@ -8,80 +8,83 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen animated-bg flex flex-col justify-center items-center p-4 pt-20"
+      className="w-full h-screen bg-nes-light flex flex-col justify-center items-center p-4 pt-20"
     >
       <form
         action="https://getform.io/f/f660f5c7-3619-4e85-8454-6db77e24ff7e"
         method="POST"
         className="flex flex-col max-w-[800px] w-full"
       >
-        <div className="pb-8">
-          <p className="text-4xl font-bold border-b-4 inline border-main-light text-gray-300">
+        <div className="pb-8 text-center">
+          <h2 className="text-4xl font-bold text-nes-dark border-b-4 border-nes-orange inline-block pb-2 uppercase tracking-wide">
             Contact
-          </p>
-          <p className="py-4 text-gray-300">{/* Send me an email */}</p>
+          </h2>
         </div>
         <input
-          className="bg-gray-200 p-2"
+          className="bg-nes-white border-2 border-nes-dark p-4 text-nes-dark placeholder-nes-dark focus:border-nes-orange focus:outline-none transition-all duration-300 font-medium"
           type="text"
-          placeholder="Name"
+          placeholder="NAME"
           name="name"
         />
         <input
-          className="my-4 p-2 bg-gray-200"
+          className="my-4 p-4 bg-nes-white border-2 border-nes-dark text-nes-dark placeholder-nes-dark focus:border-nes-orange focus:outline-none transition-all duration-300 font-medium"
           type="text"
-          placeholder="Email"
+          placeholder="EMAIL"
           name="email"
         />
         <textarea
-          className="bg-gray-200 p-2"
-          placeholder="Message"
+          className="bg-nes-white border-2 border-nes-dark p-4 text-nes-dark placeholder-nes-dark focus:border-nes-orange focus:outline-none transition-all duration-300 font-medium resize-none"
+          placeholder="MESSAGE"
           name="message"
-          rows="10"
+          rows="6"
         ></textarea>
-        <button className="text-white border-2 hover:bg-main-light hover:border-main-light duration-100 px-2 py-3 mx-auto my-8 flex items-center">
+        <button className="text-nes-dark bg-nes-white border-2 border-nes-dark hover:bg-nes-orange hover:border-nes-orange hover:text-nes-white duration-300 transition-all px-8 py-4 mx-auto my-8 flex items-center font-bold uppercase tracking-wide">
           Let's Collaborate
         </button>
       </form>
       {/* Social icons on small screens */}
       <div className="flex lg:hidden">
-        <ul className="flex pt-4">
-          <li className="flex justify-between items-center duration-150 hover:scale-110">
+        <ul className="flex pt-4 gap-8">
+          <li className="flex justify-between items-center duration-300 hover:scale-110">
             <a
-              className="flex flex-col first-letter:justify-between items-center w-full text-white"
+              className="flex flex-col justify-between items-center w-full text-nes-dark hover:text-nes-orange transition-colors duration-300"
               href="https://www.linkedin.com/in/zakarya-boudraf-55006b240/"
               target="_blank"
               rel="noreferrer"
             >
-              <FaLinkedin size={50} className="mb-2" /> Linkedin
+              <FaLinkedin size={40} className="mb-2" />
+              <span className="font-medium uppercase text-sm">LinkedIn</span>
             </a>
           </li>
-          <li className="flex justify-between items-center duration-150 hover:scale-110">
+          <li className="flex justify-between items-center duration-300 hover:scale-110">
             <a
-              className="flex flex-col justify-between items-center w-full text-white"
+              className="flex flex-col justify-between items-center w-full text-nes-dark hover:text-nes-orange transition-colors duration-300"
               href="https://github.com/ZakaryaBoudraf"
               target="_blank"
               rel="noreferrer"
             >
-              <FaGithub size={50} className="mb-2" /> GitHub
+              <FaGithub size={40} className="mb-2" />
+              <span className="font-medium uppercase text-sm">GitHub</span>
             </a>
           </li>
-          <li className="flex justify-between items-center duration-150 hover:scale-110">
+          <li className="flex justify-between items-center duration-300 hover:scale-110">
             <a
-              className="flex flex-col justify-between items-center w-full text-white"
+              className="flex flex-col justify-between items-center w-full text-nes-dark hover:text-nes-orange transition-colors duration-300"
               href="mailto: zakaryaboudraf@gmail.com"
             >
-              <HiOutlineMail size={50} className="mb-2" /> Email
+              <HiOutlineMail size={40} className="mb-2" />
+              <span className="font-medium uppercase text-sm">Email</span>
             </a>
           </li>
-          <li className="flex justify-between items-center duration-150 hover:scale-110">
+          <li className="flex justify-between items-center duration-300 hover:scale-110">
             <a
-              className="flex flex-col justify-between items-center w-full text-white"
+              className="flex flex-col justify-between items-center w-full text-nes-dark hover:text-nes-orange transition-colors duration-300"
               href={ResumePDF}
               target="_blank"
               rel="noreferrer"
             >
-              <BsFillPersonLinesFill size={50} className="mb-2" /> Resume
+              <BsFillPersonLinesFill size={40} className="mb-2" />
+              <span className="font-medium uppercase text-sm">Resume</span>
             </a>
           </li>
         </ul>
