@@ -27,7 +27,7 @@ const About = () => {
             I have worked with machine learning, especially exploring Self-Supervised learning methods in signal processing problems.<br/>
             I am currently learning internet of things as a part of a master's program at the University of Salerno.
             </p> */}
-            <iframe src='https://my.spline.design/macbookprocopy-734163396e0514f93692d739f4fb4b23/' frameborder='1' width='100%' height='100%'></iframe>
+            <iframe src='https://my.spline.design/macbookprocopy-734163396e0514f93692d739f4fb4b23/' frameborder='1' width='100%' height='100%' title='3D MacBook Model'></iframe>
           </div>
         </div>
       </div>

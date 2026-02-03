@@ -16,7 +16,7 @@ const Navbar = () => {
       {/* Navbar */}
       <div className="z-10 fixed w-full h-[80px] flex justify-between items-center px-4 bg-main-dark text-main-light shadow-lg">
         <div>
-          <img src={Logo} alt="Logo Image" style={{ width: "60px" }} />
+          <img src={Logo} alt="Logo" style={{ width: "60px" }} />
         </div>
 
         {/* Menu */}
@@ -105,6 +105,7 @@ const Navbar = () => {
                 className="flex justify-between items-center w-full text-white "
                 href="https://www.linkedin.com/in/zakarya-boudraf-55006b240/"
                 target="_blank"
+                rel="noreferrer"
               >
                 Linkedin <FaLinkedin size={30} />
               </a>
@@ -114,6 +115,7 @@ const Navbar = () => {
                 className="flex justify-between items-center w-full text-white "
                 href="https://github.com/ZakaryaBoudraf"
                 target="_blank"
+                rel="noreferrer"
               >
                 GitHub <FaGithub size={30} />
               </a>

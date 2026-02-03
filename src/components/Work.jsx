@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import ArchiDesignImg from "../assets/archi-design-screen.png";
 import PFEImg from "../assets/PFE-screen.png";
 import SelfSupervisedLearningImg from "../assets/Self-supervised.png";
@@ -26,7 +25,7 @@ const Work = () => {
           <p className="text-4xl font-bold inline border-b-4 border-main-light">
             Work
           </p>
-          <p className="py-6">// Check out my projects from University of Salerno & more!</p>
+          <p className="py-6">{/* Check out my projects from University of Salerno & more! */}</p>
         </div>
 
         <div className="grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
@@ -72,7 +71,7 @@ const Work = () => {
                 Real-time IoT security system with embedded neural networks on STM32 Nucleo-F401RE
               </p>
               <div className="pt-2 text-center">
-                <a href="https://github.com/ZakaryaBoudraf/Real-time-IDS-for-STM32" target="_blank">
+                <a href="https://github.com/ZakaryaBoudraf/Real-time-IDS-for-STM32" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
                     Code
                   </button>
@@ -100,7 +99,7 @@ const Work = () => {
                 Deep RL for autonomous traffic signal optimization in multi-intersection networks
               </p>
               <div className="pt-2 text-center">
-                <a href="https://github.com/ZakaryaBoudraf/Emergency-Traffic-Control" target="_blank">
+                <a href="https://github.com/ZakaryaBoudraf/Emergency-Traffic-Control" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
                     Code
                   </button>
@@ -128,7 +127,7 @@ const Work = () => {
                 Deep learning model to detect AI-generated artwork using CNNs
               </p>
               <div className="pt-2 text-center">
-                <a href="https://github.com/your-username/ai-art-detection" target="_blank">
+                <a href="https://github.com/your-username/ai-art-detection" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
                     Code
                   </button>
@@ -161,12 +160,12 @@ const Work = () => {
                 IoT fire detection system with MQTT monitoring and automated response
               </p>
               <div className="pt-2 text-center">
-                <a href="https://github.com/ZakaryaBoudraf/TempControlledFan" target="_blank">
+                <a href="https://github.com/ZakaryaBoudraf/TempControlledFan" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
                     Code
                   </button>
                 </a>
-                <a href="https://www.tinkercad.com/things/0wApEXWgAPd-temperature-controlled-dc-motor" target="_blank">
+                <a href="https://www.tinkercad.com/things/0wApEXWgAPd-temperature-controlled-dc-motor" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
                     Demo
                   </button>
@@ -234,7 +233,7 @@ const Work = () => {
                 Archi-Design studio site
               </span>
               <div className="pt-2 text-center">
-                <a href="https://archi-design.netlify.app/" target="_blank">
+                <a href="https://archi-design.netlify.app/" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
                     Demo
                   </button>
@@ -242,6 +241,7 @@ const Work = () => {
                 <a
                   href="https://github.com/ZakaryaBoudraf/archi-design"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-gray-700 font-bold text-l hover:text-white hover:bg-main-light duration-150">
                     Code

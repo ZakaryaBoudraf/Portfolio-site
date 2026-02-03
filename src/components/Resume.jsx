@@ -23,6 +23,7 @@ const Resume = () => {
                 className="flex justify-between items-center w-full text-white"
                 href="https://www.linkedin.com/in/zakarya-boudraf-55006b240/"
                 target="_blank"
+                rel="noreferrer"
               >
                 Linkedin <FaLinkedin size={30} />
               </a>
@@ -32,6 +33,7 @@ const Resume = () => {
                 className="flex justify-between items-center w-full text-white "
                 href="https://github.com/ZakaryaBoudraf"
                 target="_blank"
+                rel="noreferrer"
               >
                 GitHub <FaGithub size={30} />
               </a>

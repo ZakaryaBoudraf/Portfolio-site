@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link as LinkRouter } from "react-router-dom";
@@ -19,7 +19,7 @@ const Contact = () => {
           <p className="text-4xl font-bold border-b-4 inline border-main-light text-gray-300">
             Contact
           </p>
-          <p className="py-4 text-gray-300">// Send me an email</p>
+          <p className="py-4 text-gray-300">{/* Send me an email */}</p>
         </div>
         <input
           className="bg-gray-200 p-2"
@@ -51,6 +51,7 @@ const Contact = () => {
               className="flex flex-col first-letter:justify-between items-center w-full text-white"
               href="https://www.linkedin.com/in/zakarya-boudraf-55006b240/"
               target="_blank"
+              rel="noreferrer"
             >
               <FaLinkedin size={50} className="mb-2" /> Linkedin
             </a>
@@ -60,6 +61,7 @@ const Contact = () => {
               className="flex flex-col justify-between items-center w-full text-white"
               href="https://github.com/ZakaryaBoudraf"
               target="_blank"
+              rel="noreferrer"
             >
               <FaGithub size={50} className="mb-2" /> GitHub
             </a>
