@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio-site/static/css/main.d74a1b25.css",
-    "main.js": "/Portfolio-site/static/js/main.1582cc4f.js",
+    "main.css": "/Portfolio-site/static/css/main.426ca787.css",
+    "main.js": "/Portfolio-site/static/js/main.7c372854.js",
     "static/media/presentation ai-generated art detection.pdf": "/Portfolio-site/static/media/presentation ai-generated art detection.63e73dd54e9bd85cda48.pdf",
     "static/media/AI-Generated Art Detection Report.pdf": "/Portfolio-site/static/media/AI-Generated Art Detection Report.d82e700ab4e905a5a523.pdf",
     "static/media/PFE_Licence_SI_DZ.pdf": "/Portfolio-site/static/media/PFE_Licence_SI_DZ.6a5ee02beadb162b72db.pdf",
     "static/media/Final Project Report - Zakarya Boudraf - 0522501649 - Smart Emergency Traffic Control.pdf": "/Portfolio-site/static/media/Final Project Report - Zakarya Boudraf - 0522501649 - Smart Emergency Traffic Control.f4e5d64e00c3af1e77f5.pdf",
     "static/media/Presentation - Zakarya Boudraf - International School of IoT.pdf": "/Portfolio-site/static/media/Presentation - Zakarya Boudraf - International School of IoT.e15e330bc468bdfd3611.pdf",
+    "static/media/Presentation for Smart Emergency Traffic Control.pdf": "/Portfolio-site/static/media/Presentation for Smart Emergency Traffic Control.5b5f6862dc7654dd7034.pdf",
+    "static/media/Software Dependability Project Report - Zakarya Boudraf - Apache Commons CLI.pdf": "/Portfolio-site/static/media/Software Dependability Project Report - Zakarya Boudraf - Apache Commons CLI.3d0fb4f81975cbcf7254.pdf",
     "static/media/traffic-control.png": "/Portfolio-site/static/media/traffic-control.ed38d41dd6675293500b.png",
     "static/media/Presentation - IoT Security IDS.pdf": "/Portfolio-site/static/media/Presentation - IoT Security IDS.0e212c99689af5b1df8c.pdf",
     "static/media/BoudrafZakaryaCV.pdf": "/Portfolio-site/static/media/BoudrafZakaryaCV.61c2048b81aa71626a5a.pdf",
@@ -24,12 +26,13 @@
     "static/media/tailwind.png": "/Portfolio-site/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/Portfolio-site/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/Portfolio-site/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "static/media/Temperature controlled DC Motor (Final).pdf": "/Portfolio-site/static/media/Temperature controlled DC Motor (Final).09fcebe23eac0965e599.pdf",
     "index.html": "/Portfolio-site/index.html",
-    "main.d74a1b25.css.map": "/Portfolio-site/static/css/main.d74a1b25.css.map",
-    "main.1582cc4f.js.map": "/Portfolio-site/static/js/main.1582cc4f.js.map"
+    "main.426ca787.css.map": "/Portfolio-site/static/css/main.426ca787.css.map",
+    "main.7c372854.js.map": "/Portfolio-site/static/js/main.7c372854.js.map"
   },
   "entrypoints": [
-    "static/css/main.d74a1b25.css",
-    "static/js/main.1582cc4f.js"
+    "static/css/main.426ca787.css",
+    "static/js/main.7c372854.js"
   ]
 }
