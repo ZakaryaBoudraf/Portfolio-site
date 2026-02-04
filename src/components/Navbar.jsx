@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+﻿import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 import ResumePDF from "../assets/BoudrafZakaryaCV.pdf";
+import CatLogo from "../assets/catlogo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -14,7 +15,7 @@ const Navbar = () => {
       {/* Navbar */}
       <div className="z-10 fixed w-full h-[70px] flex justify-between items-center px-8 bg-nes-dark text-nes-white border-b-2 border-nes-light">
         <div>
-          <h1 className="text-2xl font-bold text-nes-white">ZB</h1>
+          <img src={CatLogo} alt="Zakarya's Logo" className="h-10 w-10 object-contain" />
         </div>
 
         {/* Menu */}
