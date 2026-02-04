@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Portfolio-site/static/css/main.83658117.css",
-    "main.js": "/Portfolio-site/static/js/main.7df3a451.js",
+    "main.css": "/Portfolio-site/static/css/main.ae5acea7.css",
+    "main.js": "/Portfolio-site/static/js/main.699ff164.js",
     "static/media/presentation ai-generated art detection.pdf": "/Portfolio-site/static/media/presentation ai-generated art detection.63e73dd54e9bd85cda48.pdf",
+    "static/media/Self-Supervised-Learning-Thesis.pdf": "/Portfolio-site/static/media/Self-Supervised-Learning-Thesis.ef9702b4918bbe8ea843.pdf",
     "static/media/AI-Generated Art Detection Report.pdf": "/Portfolio-site/static/media/AI-Generated Art Detection Report.d82e700ab4e905a5a523.pdf",
     "static/media/PFE_Licence_SI_DZ.pdf": "/Portfolio-site/static/media/PFE_Licence_SI_DZ.6a5ee02beadb162b72db.pdf",
     "static/media/Final Project Report - Zakarya Boudraf - 0522501649 - Smart Emergency Traffic Control.pdf": "/Portfolio-site/static/media/Final Project Report - Zakarya Boudraf - 0522501649 - Smart Emergency Traffic Control.f4e5d64e00c3af1e77f5.pdf",
@@ -28,11 +29,11 @@
     "static/media/javascript.png": "/Portfolio-site/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/Temperature controlled DC Motor (Final).pdf": "/Portfolio-site/static/media/Temperature controlled DC Motor (Final).09fcebe23eac0965e599.pdf",
     "index.html": "/Portfolio-site/index.html",
-    "main.83658117.css.map": "/Portfolio-site/static/css/main.83658117.css.map",
-    "main.7df3a451.js.map": "/Portfolio-site/static/js/main.7df3a451.js.map"
+    "main.ae5acea7.css.map": "/Portfolio-site/static/css/main.ae5acea7.css.map",
+    "main.699ff164.js.map": "/Portfolio-site/static/js/main.699ff164.js.map"
   },
   "entrypoints": [
-    "static/css/main.83658117.css",
-    "static/js/main.7df3a451.js"
+    "static/css/main.ae5acea7.css",
+    "static/js/main.699ff164.js"
   ]
 }
