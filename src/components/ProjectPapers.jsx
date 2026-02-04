@@ -149,7 +149,7 @@ const ProjectPapers = () => {
                 Research Papers
               </h2>
               <p className="py-6 text-gray-300">
-                // Explore my research work from University of Salerno
+                {/* Explore my research work from University of Salerno */}
               </p>
             </div>
             
