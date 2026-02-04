@@ -17,32 +17,63 @@ const Skills = () => {
           </h2>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8">
-          <div className="bg-nes-white border-2 border-nes-dark hover:border-nes-orange hover:bg-nes-orange hover:text-nes-white duration-300 transition-all pt-6 pb-4 px-4 group">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 text-center py-8">
+          <div className="bg-nes-dark border-2 border-nes-dark hover:border-nes-orange hover:bg-nes-orange hover:text-nes-white duration-300 transition-all pt-6 pb-4 px-4 group">
             <img src={HTML} alt="HTML icon" className="w-16 mx-auto mb-4 group-hover:brightness-0 group-hover:invert transition-all duration-300" />
-            <p className="font-bold uppercase tracking-wide">HTML</p>
+            <p className="font-bold uppercase tracking-wide text-nes-white group-hover:text-nes-white">HTML</p>
           </div>
-          <div className="bg-nes-white border-2 border-nes-dark hover:border-nes-orange hover:bg-nes-orange hover:text-nes-white duration-300 transition-all pt-6 pb-4 px-4 group">
+          <div className="bg-nes-dark border-2 border-nes-dark hover:border-nes-orange hover:bg-nes-orange hover:text-nes-white duration-300 transition-all pt-6 pb-4 px-4 group">
             <img src={CSS} alt="CSS icon" className="w-16 mx-auto mb-4 group-hover:brightness-0 group-hover:invert transition-all duration-300" />
-            <p className="font-bold uppercase tracking-wide">CSS</p>
+            <p className="font-bold uppercase tracking-wide text-nes-white group-hover:text-nes-white">CSS</p>
           </div>
-          <div className="bg-nes-white border-2 border-nes-dark hover:border-nes-orange hover:bg-nes-orange hover:text-nes-white duration-300 transition-all pt-6 pb-4 px-4 group">
+          <div className="bg-nes-dark border-2 border-nes-dark hover:border-nes-orange hover:bg-nes-orange hover:text-nes-white duration-300 transition-all pt-6 pb-4 px-4 group">
             <img src={JavaScript} alt="JavaScript icon" className="w-16 mx-auto mb-4 group-hover:brightness-0 group-hover:invert transition-all duration-300" />
-            <p className="font-bold uppercase tracking-wide">JavaScript</p>
+            <p className="font-bold uppercase tracking-wide text-nes-white group-hover:text-nes-white">JavaScript</p>
           </div>
-          <div className="bg-nes-white border-2 border-nes-dark hover:border-nes-orange hover:bg-nes-orange hover:text-nes-white duration-300 transition-all pt-6 pb-4 px-4 group">
+          <div className="bg-nes-dark border-2 border-nes-dark hover:border-nes-orange hover:bg-nes-orange hover:text-nes-white duration-300 transition-all pt-6 pb-4 px-4 group">
             <img src={ReactImg} alt="React icon" className="w-16 mx-auto mb-4 group-hover:brightness-0 group-hover:invert transition-all duration-300" />
-            <p className="font-bold uppercase tracking-wide">React</p>
+            <p className="font-bold uppercase tracking-wide text-nes-white group-hover:text-nes-white">React</p>
           </div>
-          <div className="bg-nes-white border-2 border-nes-dark hover:border-nes-orange hover:bg-nes-orange hover:text-nes-white duration-300 transition-all pt-6 pb-4 px-4 group">
-            <img src={GitHub} alt="GitHub icon" className="w-16 mx-auto mb-4 group-hover:brightness-0 group-hover:invert transition-all duration-300" />
-            <p className="font-bold uppercase tracking-wide">GitHub</p>
-          </div>
-          <div className="bg-nes-white border-2 border-nes-dark hover:border-nes-orange hover:bg-nes-orange hover:text-nes-white duration-300 transition-all pt-6 pb-4 px-4 group">
+          <div className="bg-nes-dark border-2 border-nes-dark hover:border-nes-orange hover:bg-nes-orange hover:text-nes-white duration-300 transition-all pt-6 pb-4 px-4 group">
             <img src={Tailwind} alt="Tailwind icon" className="w-16 mx-auto mb-4 group-hover:brightness-0 group-hover:invert transition-all duration-300" />
-            <p className="font-bold uppercase tracking-wide">Tailwind</p>
+            <p className="font-bold uppercase tracking-wide text-nes-white group-hover:text-nes-white">Tailwind</p>
           </div>
-          {/*todo: ADD JAVA PYTHON AND MORE */}
+          <div className="bg-nes-dark border-2 border-nes-dark hover:border-nes-orange hover:bg-nes-orange hover:text-nes-white duration-300 transition-all pt-6 pb-4 px-4 group">
+            <img src={GitHub} alt="GitHub icon" className="w-16 mx-auto mb-4 group-hover:brightness-0 group-hover:invert transition-all duration-300" />
+            <p className="font-bold uppercase tracking-wide text-nes-white group-hover:text-nes-white">GitHub</p>
+          </div>
+          
+          {/* Specific technology skills */}
+          <div className="bg-nes-dark border-2 border-nes-dark hover:border-nes-orange hover:bg-nes-orange hover:text-nes-white duration-300 transition-all pt-6 pb-4 px-4 group">
+            <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl font-bold text-nes-white group-hover:text-nes-white transition-all duration-300">
+              🐍
+            </div>
+            <p className="font-bold uppercase tracking-wide text-nes-white group-hover:text-nes-white text-xs">Python • Pandas • NumPy</p>
+          </div>
+          <div className="bg-nes-dark border-2 border-nes-dark hover:border-nes-orange hover:bg-nes-orange hover:text-nes-white duration-300 transition-all pt-6 pb-4 px-4 group">
+            <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl font-bold text-nes-white group-hover:text-nes-white transition-all duration-300">
+              ☕
+            </div>
+            <p className="font-bold uppercase tracking-wide text-nes-white group-hover:text-nes-white text-xs">Java • Spring • CRUD</p>
+          </div>
+          <div className="bg-nes-dark border-2 border-nes-dark hover:border-nes-orange hover:bg-nes-orange hover:text-nes-white duration-300 transition-all pt-6 pb-4 px-4 group">
+            <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl font-bold text-nes-white group-hover:text-nes-white transition-all duration-300">
+              🤖
+            </div>
+            <p className="font-bold uppercase tracking-wide text-nes-white group-hover:text-nes-white text-xs">TensorFlow • Keras • PyTorch</p>
+          </div>
+          <div className="bg-nes-dark border-2 border-nes-dark hover:border-nes-orange hover:bg-nes-orange hover:text-nes-white duration-300 transition-all pt-6 pb-4 px-4 group">
+            <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl font-bold text-nes-white group-hover:text-nes-white transition-all duration-300">
+              🌐
+            </div>
+            <p className="font-bold uppercase tracking-wide text-nes-white group-hover:text-nes-white text-xs">Arduino • MQTT • Sensors</p>
+          </div>
+          <div className="bg-nes-dark border-2 border-nes-dark hover:border-nes-orange hover:bg-nes-orange hover:text-nes-white duration-300 transition-all pt-6 pb-4 px-4 group">
+            <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl font-bold text-nes-white group-hover:text-nes-white transition-all duration-300">
+              🔧
+            </div>
+            <p className="font-bold uppercase tracking-wide text-nes-white group-hover:text-nes-white text-xs">STM32 • Arduino • Raspberry Pi</p>
+          </div>
         </div>
       </div>
     </div>
