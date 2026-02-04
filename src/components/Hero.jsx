@@ -13,10 +13,10 @@ const Hero = () => {
           Zakarya Boudraf
         </h1>
         <h2 className="text-2xl sm:text-4xl font-semibold text-nes-dark mb-6">
-          I'm a Web, ML and IoT Developer.
-        </h2>
+          I'm a Data Engineer based in Italy.
+          </h2>
         <p className="text-nes-dark py-4 max-w-[700px] text-lg leading-relaxed">
-          Hi there ~ 👋
+          If you'd like to learn more about my career and experience feel free to explore the "Work" section to see my projects, or check out my CV for a more detailed overview.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <Link to="work" smooth={true} duration={500}>

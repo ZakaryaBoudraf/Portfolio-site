@@ -17,6 +17,7 @@ import IntrusionDetectionPaper from "../assets/papers/Presentation - IoT Securit
 import PredictiveMaintenancePaper from "../assets/papers/Systematic Literature Review Data-Centric Approaches in Industrial Predictive Maintenance.pdf";
 import PredictiveMaintenancePresentation from "../assets/papers/Presentation - Zakarya Boudraf - International School of IoT.pdf";
 import JavaCRUDPaper from "../assets/papers/PFE_Licence_SI_DZ.pdf";
+import SelfSupervisedThesis from "../assets/papers/Self-Supervised-Learning-Thesis.pdf";
 
 const Work = () => {
   return (
@@ -84,7 +85,7 @@ const Work = () => {
                 </a>
                 <a href={IntrusionDetectionPaper} target="_blank" rel="noopener noreferrer">
                   <button className="bg-nes-white text-nes-dark border-2 border-nes-dark px-4 py-2 hover:bg-nes-orange hover:text-nes-white hover:border-nes-orange transition-all duration-300 font-medium uppercase text-sm">
-                    Research
+                    Presentation
                   </button>
                 </a>
               </div>
@@ -151,7 +152,7 @@ const Work = () => {
                 </a>
                 <a href={AIArtDetectionPaper} target="_blank" rel="noopener noreferrer">
                   <button className="bg-nes-white text-nes-dark border-2 border-nes-dark px-4 py-2 hover:bg-nes-orange hover:text-nes-white hover:border-nes-orange transition-all duration-300 font-medium uppercase text-sm">
-                    Paper
+                    Report
                   </button>
                 </a>
                 <a href={AIArtDetectionPresentation} target="_blank" rel="noopener noreferrer">
@@ -208,12 +209,12 @@ const Work = () => {
                 Self-Supervised Learning for Epileptic Seizure Detection
               </h3>
               <div className="flex flex-wrap justify-center gap-2">
-                <a href={AIArtDetectionPaper} target="_blank" rel="noopener noreferrer">
+                <a href={SelfSupervisedThesis} target="_blank" rel="noopener noreferrer">
                   <button className="bg-nes-white text-nes-dark border-2 border-nes-dark px-4 py-2 hover:bg-nes-orange hover:text-nes-white hover:border-nes-orange transition-all duration-300 font-medium uppercase text-sm">
-                    Report
+                    Thesis
                   </button>
                 </a>
-                <a href={AIArtDetectionPaper} target="_blank" rel="noopener noreferrer">
+                <a href="https://catalogue-biblio.univ-setif.dz/opac-science/index.php?lvl=author_see&id=16716" target="_blank" rel="noopener noreferrer">
                   <button className="bg-nes-white text-nes-dark border-2 border-nes-dark px-4 py-2 hover:bg-nes-orange hover:text-nes-white hover:border-nes-orange transition-all duration-300 font-medium uppercase text-sm">
                     Publication
                   </button>

@@ -3,6 +3,15 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+/* CSS Custom Properties for Dynamic Theming */
+:root {
+  --color-dark: #424242;
+  --color-light: #E8E8E8;
+  --color-orange: #FC5230;
+  --color-white: #F5F5F5;
+}
+
 @layer base {
   body {
     @apply font-montserrat;

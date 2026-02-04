@@ -33,7 +33,7 @@ const Contact = () => {
 
         {/* Description */}
         <p className="text-nes-dark text-lg mb-8 max-w-[600px] mx-auto">
-          Have a question or just want to say hi? Reach out at:
+                    Like what you see? Don't hesitate to reach out at:
         </p>
 
         {/* Email Section */}

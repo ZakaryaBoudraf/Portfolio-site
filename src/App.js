@@ -1,4 +1,5 @@
 import React from "react";
+import { ThemeProvider } from "./contexts/ThemeContext";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -9,15 +10,17 @@ import Work from "./components/Work";
 
 function App() {
   return (
-    <div className="bg-main-dark">
-      <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Work />
-      <Contact />
-      <Footer />
-    </div>
+    <ThemeProvider>
+      <div className="bg-main-dark">
+        <Navbar />
+        <Hero />
+        <About />
+        <Skills />
+        <Work />
+        <Contact />
+        <Footer />
+      </div>
+    </ThemeProvider>
   );
 }
 
