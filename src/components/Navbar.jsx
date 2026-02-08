@@ -5,7 +5,6 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 import { useTheme } from "../contexts/ThemeContext";
 import ResumePDF from "../assets/BoudrafZakaryaCV.pdf";
-import CatLogo from "../assets/catlogo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -49,12 +48,16 @@ const Navbar = () => {
       {/* Navbar */}
       <div className="z-10 fixed w-full h-[60px] sm:h-[70px] flex justify-between items-center px-4 sm:px-8 bg-nes-dark text-nes-white border-b-2 border-nes-light">
         <div>
-          <img 
-            src={CatLogo} 
-            alt="Zakarya's Logo" 
-            className="h-8 w-8 sm:h-10 sm:w-10 object-contain cursor-pointer hover:scale-110 transition-transform duration-200" 
+          <button
             onClick={handleLogoClick}
-          />
+            className="w-8 h-8 sm:w-10 sm:h-10 border-2 border-nes-white hover:border-nes-orange hover:scale-110 transition-all duration-200 grid grid-cols-2 grid-rows-2 overflow-hidden cursor-pointer"
+            title={themes[currentTheme]?.name || 'Change Theme'}
+          >
+            <div style={{ backgroundColor: themes[currentTheme]?.colors.dark }} className="w-full h-full"></div>
+            <div style={{ backgroundColor: themes[currentTheme]?.colors.orange }} className="w-full h-full"></div>
+            <div style={{ backgroundColor: themes[currentTheme]?.colors.light }} className="w-full h-full"></div>
+            <div style={{ backgroundColor: themes[currentTheme]?.colors.white }} className="w-full h-full"></div>
+          </button>
         </div>
 
         {/* Menu */}
