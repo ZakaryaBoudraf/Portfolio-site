@@ -8,16 +8,16 @@ import Tailwind from "../assets/tailwind.png";
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-screen bg-nes-light">
+    <div name="skills" className="w-full min-h-screen bg-nes-light">
       {/* container */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-nes-dark border-b-4 border-nes-orange inline-block pb-2 uppercase tracking-wide">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full min-h-screen py-16 sm:py-20">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-3xl sm:text-4xl font-bold text-nes-dark border-b-4 border-nes-orange inline-block pb-2 uppercase tracking-wide">
             Skills
           </h2>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 text-center py-8">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6 text-center py-4 sm:py-8">
           <div className="bg-nes-dark border-2 border-nes-dark hover:border-nes-orange hover:bg-nes-orange hover:text-nes-white duration-300 transition-all pt-6 pb-4 px-4 group">
             <img src={HTML} alt="HTML icon" className="w-16 mx-auto mb-4 group-hover:brightness-0 group-hover:invert transition-all duration-300" />
             <p className="font-bold uppercase tracking-wide text-nes-white group-hover:text-nes-white">HTML</p>

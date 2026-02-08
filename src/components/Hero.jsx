@@ -5,17 +5,17 @@ import ResumePDF from "../assets/BoudrafZakaryaCV.pdf";
 
 const Hero = () => {
   return (
-    <div name="hero" className="w-full h-screen bg-nes-light">
+    <div name="hero" className="w-full min-h-screen bg-nes-light pt-[60px] sm:pt-[70px]">
       {/* container */}
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-nes-dark text-sm font-medium uppercase tracking-wider mb-4">Hi, my name is</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-nes-dark mb-4">
+      <div className="max-w-[1000px] mx-auto px-4 sm:px-8 flex flex-col justify-center min-h-screen py-20">
+        <p className="text-nes-dark text-xs sm:text-sm font-medium uppercase tracking-wider mb-2 sm:mb-4">Hi, my name is</p>
+        <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold text-nes-dark mb-3 sm:mb-4">
           Zakarya Boudraf
         </h1>
-        <h2 className="text-2xl sm:text-4xl font-semibold text-nes-dark mb-6">
+        <h2 className="text-xl sm:text-3xl md:text-4xl font-semibold text-nes-dark mb-4 sm:mb-6">
           I'm a Data Engineer based in Italy.
           </h2>
-        <p className="text-nes-dark py-4 max-w-[700px] text-lg leading-relaxed">
+        <p className="text-nes-dark py-2 sm:py-4 max-w-[700px] text-base sm:text-lg leading-relaxed">
           If you'd like to learn more about my career and experience feel free to explore the "Work" section to see my projects, or check out my CV for a more detailed overview.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">

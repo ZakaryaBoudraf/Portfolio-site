@@ -47,18 +47,18 @@ const Navbar = () => {
   return (
     <div>
       {/* Navbar */}
-      <div className="z-10 fixed w-full h-[70px] flex justify-between items-center px-8 bg-nes-dark text-nes-white border-b-2 border-nes-light">
+      <div className="z-10 fixed w-full h-[60px] sm:h-[70px] flex justify-between items-center px-4 sm:px-8 bg-nes-dark text-nes-white border-b-2 border-nes-light">
         <div>
           <img 
             src={CatLogo} 
             alt="Zakarya's Logo" 
-            className="h-10 w-10 object-contain cursor-pointer hover:scale-110 transition-transform duration-200" 
+            className="h-8 w-8 sm:h-10 sm:w-10 object-contain cursor-pointer hover:scale-110 transition-transform duration-200" 
             onClick={handleLogoClick}
           />
         </div>
 
         {/* Menu */}
-        <ul className="hidden md:flex gap-8 text-sm font-medium uppercase tracking-wide">
+        <ul className="hidden md:flex gap-4 lg:gap-8 text-xs lg:text-sm font-medium uppercase tracking-wide">
           <li>
             <Link to="hero" smooth={true} duration={500} className="block px-3 py-2 border border-transparent hover:border-nes-orange hover:bg-nes-orange hover:text-nes-white duration-200 transition-all cursor-pointer">
               Home
@@ -99,28 +99,28 @@ const Navbar = () => {
               : "absolute top-0 left-0 w-full h-screen bg-nes-dark border-r-4 border-nes-orange flex flex-col justify-center items-center z-10"
           }
         >
-          <li className="border-b border-nes-light">
-            <Link onClick={handleClick} to="hero" smooth={true} duration={500} className="block py-6 px-8 text-2xl text-nes-white uppercase tracking-wide hover:text-nes-orange transition-colors cursor-pointer">
+          <li className="border-b border-nes-light w-full">
+            <Link onClick={handleClick} to="hero" smooth={true} duration={500} className="block py-5 px-6 text-xl sm:text-2xl text-nes-white uppercase tracking-wide hover:text-nes-orange transition-colors cursor-pointer text-center">
               Home
             </Link>
           </li>
-          <li className="border-b border-nes-light">
-            <Link onClick={handleClick} to="about" smooth={true} duration={500} className="block py-6 px-8 text-2xl text-nes-white uppercase tracking-wide hover:text-nes-orange transition-colors cursor-pointer">
+          <li className="border-b border-nes-light w-full">
+            <Link onClick={handleClick} to="about" smooth={true} duration={500} className="block py-5 px-6 text-xl sm:text-2xl text-nes-white uppercase tracking-wide hover:text-nes-orange transition-colors cursor-pointer text-center">
               About
             </Link>
           </li>
-          <li className="border-b border-nes-light">
-            <Link onClick={handleClick} to="skills" smooth={true} duration={500} className="block py-6 px-8 text-2xl text-nes-white uppercase tracking-wide hover:text-nes-orange transition-colors cursor-pointer">
+          <li className="border-b border-nes-light w-full">
+            <Link onClick={handleClick} to="skills" smooth={true} duration={500} className="block py-5 px-6 text-xl sm:text-2xl text-nes-white uppercase tracking-wide hover:text-nes-orange transition-colors cursor-pointer text-center">
               Skills
             </Link>
           </li>
-          <li className="border-b border-nes-light">
-            <Link onClick={handleClick} to="work" smooth={true} duration={500} className="block py-6 px-8 text-2xl text-nes-white uppercase tracking-wide hover:text-nes-orange transition-colors cursor-pointer">
+          <li className="border-b border-nes-light w-full">
+            <Link onClick={handleClick} to="work" smooth={true} duration={500} className="block py-5 px-6 text-xl sm:text-2xl text-nes-white uppercase tracking-wide hover:text-nes-orange transition-colors cursor-pointer text-center">
               Work
             </Link>
           </li>
-          <li>
-            <Link onClick={handleClick} to="contact" smooth={true} duration={500} className="block py-6 px-8 text-2xl text-nes-white uppercase tracking-wide hover:text-nes-orange transition-colors cursor-pointer">
+          <li className="w-full">
+            <Link onClick={handleClick} to="contact" smooth={true} duration={500} className="block py-5 px-6 text-xl sm:text-2xl text-nes-white uppercase tracking-wide hover:text-nes-orange transition-colors cursor-pointer text-center">
               Contact
             </Link>
           </li>
