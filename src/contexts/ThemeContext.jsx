@@ -131,8 +131,11 @@ export const themes = {
 };
 
 export const ThemeProvider = ({ children }) => {
-  const [currentTheme, setCurrentTheme] = useState('default');
   const themeKeys = Object.keys(themes);
+  const getRandomTheme = () => {
+    return themeKeys[Math.floor(Math.random() * themeKeys.length)];
+  };
+  const [currentTheme, setCurrentTheme] = useState(getRandomTheme());
 
   // Initialize CSS custom properties on mount
   useEffect(() => {
