@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-site/static/css/main.7e3aecfd.css",
-    "main.js": "/Portfolio-site/static/js/main.fb499693.js",
+    "main.js": "/Portfolio-site/static/js/main.8f96d579.js",
     "static/media/presentation ai-generated art detection.pdf": "/Portfolio-site/static/media/presentation ai-generated art detection.63e73dd54e9bd85cda48.pdf",
     "static/media/Self-Supervised-Learning-Thesis.pdf": "/Portfolio-site/static/media/Self-Supervised-Learning-Thesis.ef9702b4918bbe8ea843.pdf",
     "static/media/AI-Generated Art Detection Report.pdf": "/Portfolio-site/static/media/AI-Generated Art Detection Report.d82e700ab4e905a5a523.pdf",
@@ -30,10 +30,10 @@
     "static/media/Temperature controlled DC Motor (Final).pdf": "/Portfolio-site/static/media/Temperature controlled DC Motor (Final).09fcebe23eac0965e599.pdf",
     "index.html": "/Portfolio-site/index.html",
     "main.7e3aecfd.css.map": "/Portfolio-site/static/css/main.7e3aecfd.css.map",
-    "main.fb499693.js.map": "/Portfolio-site/static/js/main.fb499693.js.map"
+    "main.8f96d579.js.map": "/Portfolio-site/static/js/main.8f96d579.js.map"
   },
   "entrypoints": [
     "static/css/main.7e3aecfd.css",
-    "static/js/main.fb499693.js"
+    "static/js/main.8f96d579.js"
   ]
 }
