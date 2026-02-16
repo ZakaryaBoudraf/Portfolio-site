@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { FaBars, FaTimes, FaGithub, FaLinkedin, FaPalette } from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin, FaPalette, FaMoon, FaSun } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
@@ -9,7 +9,7 @@ import ResumePDF from "../assets/BoudrafZakaryaCV.pdf";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [showPalette, setShowPalette] = useState(false);
-  const { cycleTheme, setTheme, themes, currentTheme } = useTheme();
+  const { cycleTheme, setTheme, themes, currentTheme, darkMode, toggleDarkMode } = useTheme();
   const paletteRef = useRef(null);
   const handleClick = () => setNav(!nav);
 
@@ -47,7 +47,7 @@ const Navbar = () => {
     <div>
       {/* Navbar */}
       <div className="z-10 fixed w-full h-[60px] sm:h-[70px] flex justify-between items-center px-4 sm:px-8 bg-nes-dark text-nes-white border-b-2 border-nes-light">
-        <div>
+        <div className="flex items-center gap-3">
           <button
             onClick={handleLogoClick}
             className="w-8 h-8 sm:w-10 sm:h-10 border-2 border-nes-white hover:border-nes-orange hover:scale-110 transition-all duration-200 grid grid-cols-2 grid-rows-2 overflow-hidden cursor-pointer"
@@ -57,6 +57,13 @@ const Navbar = () => {
             <div style={{ backgroundColor: themes[currentTheme]?.colors.orange }} className="w-full h-full"></div>
             <div style={{ backgroundColor: themes[currentTheme]?.colors.light }} className="w-full h-full"></div>
             <div style={{ backgroundColor: themes[currentTheme]?.colors.white }} className="w-full h-full"></div>
+          </button>
+          <button
+            onClick={toggleDarkMode}
+            className="w-8 h-8 sm:w-10 sm:h-10 border-2 border-nes-white hover:border-nes-orange hover:scale-110 transition-all duration-200 flex items-center justify-center cursor-pointer"
+            title={darkMode ? 'Light Mode' : 'Dark Mode'}
+          >
+            {darkMode ? <FaSun size={16} /> : <FaMoon size={16} />}
           </button>
         </div>
 

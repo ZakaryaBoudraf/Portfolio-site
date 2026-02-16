@@ -136,16 +136,26 @@ export const ThemeProvider = ({ children }) => {
     return themeKeys[Math.floor(Math.random() * themeKeys.length)];
   };
   const [currentTheme, setCurrentTheme] = useState(getRandomTheme());
+  const [darkMode, setDarkMode] = useState(false);
 
   // Initialize CSS custom properties on mount
   useEffect(() => {
     const theme = themes[currentTheme];
     const root = document.documentElement;
-    root.style.setProperty('--color-dark', theme.colors.dark);
-    root.style.setProperty('--color-light', theme.colors.light);
-    root.style.setProperty('--color-orange', theme.colors.orange);
-    root.style.setProperty('--color-white', theme.colors.white);
-  }, [currentTheme]);
+    
+    if (darkMode) {
+      // Invert colors for dark mode
+      root.style.setProperty('--color-dark', theme.colors.light);
+      root.style.setProperty('--color-light', theme.colors.dark);
+      root.style.setProperty('--color-orange', theme.colors.white);
+      root.style.setProperty('--color-white', theme.colors.orange);
+    } else {
+      root.style.setProperty('--color-dark', theme.colors.dark);
+      root.style.setProperty('--color-light', theme.colors.light);
+      root.style.setProperty('--color-orange', theme.colors.orange);
+      root.style.setProperty('--color-white', theme.colors.white);
+    }
+  }, [currentTheme, darkMode]);
 
   const cycleTheme = () => {
     const currentIndex = themeKeys.indexOf(currentTheme);
@@ -160,12 +170,18 @@ export const ThemeProvider = ({ children }) => {
     }
   };
 
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+  };
+
   const value = {
     currentTheme,
     theme: themes[currentTheme],
     cycleTheme,
     setTheme,
-    themes
+    themes,
+    darkMode,
+    toggleDarkMode
   };
 
   return (
