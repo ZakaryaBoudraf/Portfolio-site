@@ -19,7 +19,7 @@ const Hero = () => {
           If you'd like to learn more about my career and experience feel free to explore the "Work" section to see my projects, or check out my CV for a more detailed overview.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
-          <Link to="work" smooth={true} duration={500}>
+          <Link to="work" smooth={true} duration={50}>
             <button className="group text-nes-dark bg-nes-white border-2 border-nes-dark px-6 py-3 my-2 flex items-center hover:bg-nes-orange hover:border-nes-orange hover:text-nes-white duration-300 transition-all font-medium uppercase tracking-wide">
               View work
               <span className="group-hover:ml-2 duration-300 transition-all">
