@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/Portfolio-site/static/css/main.ee047d98.css",
-    "main.js": "/Portfolio-site/static/js/main.4d8bcdf3.js",
+    "main.js": "/Portfolio-site/static/js/main.23b3513d.js",
     "static/js/233.8fb59bb9.chunk.js": "/Portfolio-site/static/js/233.8fb59bb9.chunk.js",
-    "static/js/411.a7b1bcfb.chunk.js": "/Portfolio-site/static/js/411.a7b1bcfb.chunk.js",
+    "static/js/411.33a49edc.chunk.js": "/Portfolio-site/static/js/411.33a49edc.chunk.js",
     "static/js/366.20e7d018.chunk.js": "/Portfolio-site/static/js/366.20e7d018.chunk.js",
     "static/js/818.725c53cf.chunk.js": "/Portfolio-site/static/js/818.725c53cf.chunk.js",
     "static/js/214.62031f1d.chunk.js": "/Portfolio-site/static/js/214.62031f1d.chunk.js",
@@ -36,9 +36,9 @@
     "static/media/Temperature controlled DC Motor (Final).pdf": "/Portfolio-site/static/media/Temperature controlled DC Motor (Final).09fcebe23eac0965e599.pdf",
     "index.html": "/Portfolio-site/index.html",
     "main.ee047d98.css.map": "/Portfolio-site/static/css/main.ee047d98.css.map",
-    "main.4d8bcdf3.js.map": "/Portfolio-site/static/js/main.4d8bcdf3.js.map",
+    "main.23b3513d.js.map": "/Portfolio-site/static/js/main.23b3513d.js.map",
     "233.8fb59bb9.chunk.js.map": "/Portfolio-site/static/js/233.8fb59bb9.chunk.js.map",
-    "411.a7b1bcfb.chunk.js.map": "/Portfolio-site/static/js/411.a7b1bcfb.chunk.js.map",
+    "411.33a49edc.chunk.js.map": "/Portfolio-site/static/js/411.33a49edc.chunk.js.map",
     "366.20e7d018.chunk.js.map": "/Portfolio-site/static/js/366.20e7d018.chunk.js.map",
     "818.725c53cf.chunk.js.map": "/Portfolio-site/static/js/818.725c53cf.chunk.js.map",
     "214.62031f1d.chunk.js.map": "/Portfolio-site/static/js/214.62031f1d.chunk.js.map",
@@ -46,6 +46,6 @@
   },
   "entrypoints": [
     "static/css/main.ee047d98.css",
-    "static/js/main.4d8bcdf3.js"
+    "static/js/main.23b3513d.js"
   ]
 }
