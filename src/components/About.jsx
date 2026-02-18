@@ -14,9 +14,9 @@ const About = () => {
         <div className="max-w-[1000px] w-full px-4 sm:px-8">
           <div className="bg-nes-light border-2 border-nes-dark p-4 sm:p-6 md:p-8 rounded-sm">
             <p className="text-base sm:text-lg text-nes-dark leading-relaxed text-center">
-              I'm a full-stack web developer, with a focus on front-end development.<br/><br/>
-              I have worked with machine learning, especially exploring Self-Supervised learning methods in signal processing problems.<br/><br/>
-              I am currently learning internet of things as a part of a master's program at the University of Salerno.
+              I'm a data engineer and machine learning practitioner, specializing in building data pipelines and intelligent systems.<br/><br/>
+              I have extensive experience with machine learning, particularly exploring Self-Supervised learning methods in signal processing problems.<br/><br/>
+              I am currently expanding my expertise in Internet of Things as part of a master's program at the University of Salerno.
             </p>
           </div>
         </div>
