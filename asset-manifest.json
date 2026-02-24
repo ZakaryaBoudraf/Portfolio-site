@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/Portfolio-site/static/css/main.ee047d98.css",
-    "main.js": "/Portfolio-site/static/js/main.23b3513d.js",
-    "static/js/233.8fb59bb9.chunk.js": "/Portfolio-site/static/js/233.8fb59bb9.chunk.js",
-    "static/js/411.33a49edc.chunk.js": "/Portfolio-site/static/js/411.33a49edc.chunk.js",
-    "static/js/366.20e7d018.chunk.js": "/Portfolio-site/static/js/366.20e7d018.chunk.js",
-    "static/js/818.725c53cf.chunk.js": "/Portfolio-site/static/js/818.725c53cf.chunk.js",
+    "main.css": "/Portfolio-site/static/css/main.29b63fcb.css",
+    "main.js": "/Portfolio-site/static/js/main.6b8eeb56.js",
+    "static/js/233.b97fa4b4.chunk.js": "/Portfolio-site/static/js/233.b97fa4b4.chunk.js",
+    "static/js/411.df1e9ab2.chunk.js": "/Portfolio-site/static/js/411.df1e9ab2.chunk.js",
+    "static/js/366.2ddede3d.chunk.js": "/Portfolio-site/static/js/366.2ddede3d.chunk.js",
+    "static/js/818.dc2e14ea.chunk.js": "/Portfolio-site/static/js/818.dc2e14ea.chunk.js",
     "static/js/214.62031f1d.chunk.js": "/Portfolio-site/static/js/214.62031f1d.chunk.js",
     "static/js/642.33684c8d.chunk.js": "/Portfolio-site/static/js/642.33684c8d.chunk.js",
     "static/media/presentation ai-generated art detection.pdf": "/Portfolio-site/static/media/presentation ai-generated art detection.63e73dd54e9bd85cda48.pdf",
@@ -35,17 +35,17 @@
     "static/media/javascript.png": "/Portfolio-site/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/Temperature controlled DC Motor (Final).pdf": "/Portfolio-site/static/media/Temperature controlled DC Motor (Final).09fcebe23eac0965e599.pdf",
     "index.html": "/Portfolio-site/index.html",
-    "main.ee047d98.css.map": "/Portfolio-site/static/css/main.ee047d98.css.map",
-    "main.23b3513d.js.map": "/Portfolio-site/static/js/main.23b3513d.js.map",
-    "233.8fb59bb9.chunk.js.map": "/Portfolio-site/static/js/233.8fb59bb9.chunk.js.map",
-    "411.33a49edc.chunk.js.map": "/Portfolio-site/static/js/411.33a49edc.chunk.js.map",
-    "366.20e7d018.chunk.js.map": "/Portfolio-site/static/js/366.20e7d018.chunk.js.map",
-    "818.725c53cf.chunk.js.map": "/Portfolio-site/static/js/818.725c53cf.chunk.js.map",
+    "main.29b63fcb.css.map": "/Portfolio-site/static/css/main.29b63fcb.css.map",
+    "main.6b8eeb56.js.map": "/Portfolio-site/static/js/main.6b8eeb56.js.map",
+    "233.b97fa4b4.chunk.js.map": "/Portfolio-site/static/js/233.b97fa4b4.chunk.js.map",
+    "411.df1e9ab2.chunk.js.map": "/Portfolio-site/static/js/411.df1e9ab2.chunk.js.map",
+    "366.2ddede3d.chunk.js.map": "/Portfolio-site/static/js/366.2ddede3d.chunk.js.map",
+    "818.dc2e14ea.chunk.js.map": "/Portfolio-site/static/js/818.dc2e14ea.chunk.js.map",
     "214.62031f1d.chunk.js.map": "/Portfolio-site/static/js/214.62031f1d.chunk.js.map",
     "642.33684c8d.chunk.js.map": "/Portfolio-site/static/js/642.33684c8d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee047d98.css",
-    "static/js/main.23b3513d.js"
+    "static/css/main.29b63fcb.css",
+    "static/js/main.6b8eeb56.js"
   ]
 }
