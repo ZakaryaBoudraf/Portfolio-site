@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import ArchiDesignImg from "../assets/archi-design-screen.png";
 import PFEImg from "../assets/PFE-screen.png";
 import SelfSupervisedLearningImg from "../assets/Self-supervised.png";
@@ -20,10 +20,35 @@ import JavaCRUDPaper from "../assets/papers/PFE_Licence_SI_DZ.pdf";
 import SelfSupervisedThesis from "../assets/papers/Self-Supervised-Learning-Thesis.pdf";
 
 const Work = () => {
+  const [isVisible, setIsVisible] = useState(false);
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    const currentRef = sectionRef.current;
+    if (currentRef) {
+      observer.observe(currentRef);
+    }
+
+    return () => {
+      if (currentRef) {
+        observer.unobserve(currentRef);
+      }
+    };
+  }, []);
+
   return (
-    <div name="work" className="w-full min-h-screen bg-nes-white py-16 sm:py-20">
+    <div name="work" className="w-full min-h-screen bg-nes-white py-16 sm:py-20" ref={sectionRef}>
       <div className="max-w-[1200px] mx-auto px-4 sm:p-4 flex flex-col justify-start w-full h-full pb-12 sm:pb-20">
-        <div className="text-center mb-8 sm:mb-12">
+        <div className={`text-center mb-8 sm:mb-12 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'}`}>
           <h2 className="text-3xl sm:text-4xl font-bold text-nes-dark border-b-4 border-nes-orange inline-block pb-2 uppercase tracking-wide">
             Work
           </h2>
@@ -31,7 +56,7 @@ const Work = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6">
           {/* 1. Data-Centric Industrial Predictive Maintenance */}
-          <div className="bg-nes-light border-2 border-nes-dark hover:border-nes-orange transition-all duration-300">
+          <div className={`bg-nes-light border-2 border-nes-dark hover:border-nes-orange transition-all duration-700 delay-100 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <div className="h-40 sm:h-48 overflow-hidden">
               <img 
                 src={PredictiveMaintenanceImg} 
@@ -62,7 +87,7 @@ const Work = () => {
           </div>
 
           {/* 2. IoT Intrusion Detection System with Embedded Neural Networks */}
-          <div className="bg-nes-light border-2 border-nes-dark hover:border-nes-orange transition-all duration-300">
+          <div className={`bg-nes-light border-2 border-nes-dark hover:border-nes-orange transition-all duration-700 delay-200 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <div className="h-40 sm:h-48 overflow-hidden">
               <img 
                 src={IntrusionDetectionImg} 
@@ -93,7 +118,7 @@ const Work = () => {
           </div>
 
           {/* 3. Smart Traffic Control */}
-          <div className="bg-nes-light border-2 border-nes-dark hover:border-nes-orange transition-all duration-300">
+          <div className={`bg-nes-light border-2 border-nes-dark hover:border-nes-orange transition-all duration-700 delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <div className="h-40 sm:h-48 overflow-hidden">
               <img 
                 src={TrafficControlImg} 
@@ -129,7 +154,7 @@ const Work = () => {
           </div>
           
           {/* 4. AI-Generated Art Detection */}
-          <div className="bg-nes-light border-2 border-nes-dark hover:border-nes-orange transition-all duration-300">
+          <div className={`bg-nes-light border-2 border-nes-dark hover:border-nes-orange transition-all duration-700 delay-100 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <div className="h-40 sm:h-48 overflow-hidden">
               <img 
                 src={AIArtDetectionImg} 
@@ -165,7 +190,7 @@ const Work = () => {
           </div>
 
           {/* 5. Fire Detection System */}
-          <div className="bg-nes-light border-2 border-nes-dark hover:border-nes-orange transition-all duration-300">
+          <div className={`bg-nes-light border-2 border-nes-dark hover:border-nes-orange transition-all duration-700 delay-200 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <div className="h-40 sm:h-48 overflow-hidden">
               <img 
                 src={FireDetectionImg} 
@@ -196,7 +221,7 @@ const Work = () => {
           </div>
 
           {/* 6. Self-Supervised Learning */}
-          <div className="bg-nes-light border-2 border-nes-dark hover:border-nes-orange transition-all duration-300">
+          <div className={`bg-nes-light border-2 border-nes-dark hover:border-nes-orange transition-all duration-700 delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <div className="h-40 sm:h-48 overflow-hidden">
               <img 
                 src={SelfSupervisedLearningImg} 
@@ -224,7 +249,7 @@ const Work = () => {
           </div>
 
           {/* 7. Java CRUD Application */}
-          <div className="bg-nes-light border-2 border-nes-dark hover:border-nes-orange transition-all duration-300">
+          <div className={`bg-nes-light border-2 border-nes-dark hover:border-nes-orange transition-all duration-700 delay-100 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <div className="h-40 sm:h-48 overflow-hidden">
               <img 
                 src={PFEImg} 
@@ -247,7 +272,7 @@ const Work = () => {
           </div>
 
           {/* 8. Archi-Design Studio Site */}
-          <div className="bg-nes-light border-2 border-nes-dark hover:border-nes-orange transition-all duration-300">
+          <div className={`bg-nes-light border-2 border-nes-dark hover:border-nes-orange transition-all duration-700 delay-200 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <div className="h-40 sm:h-48 overflow-hidden">
               <img 
                 src={ArchiDesignImg} 
