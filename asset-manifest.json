@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-site/static/css/main.29b63fcb.css",
-    "main.js": "/Portfolio-site/static/js/main.6b8eeb56.js",
+    "main.js": "/Portfolio-site/static/js/main.70e00e8b.js",
     "static/js/233.b97fa4b4.chunk.js": "/Portfolio-site/static/js/233.b97fa4b4.chunk.js",
     "static/js/411.df1e9ab2.chunk.js": "/Portfolio-site/static/js/411.df1e9ab2.chunk.js",
     "static/js/366.2ddede3d.chunk.js": "/Portfolio-site/static/js/366.2ddede3d.chunk.js",
@@ -18,9 +18,9 @@
     "static/media/Software Dependability Project Report - Zakarya Boudraf - Apache Commons CLI.pdf": "/Portfolio-site/static/media/Software Dependability Project Report - Zakarya Boudraf - Apache Commons CLI.3d0fb4f81975cbcf7254.pdf",
     "static/media/traffic-control.png": "/Portfolio-site/static/media/traffic-control.ed38d41dd6675293500b.png",
     "static/media/Presentation - IoT Security IDS.pdf": "/Portfolio-site/static/media/Presentation - IoT Security IDS.0e212c99689af5b1df8c.pdf",
-    "static/media/BoudrafZakaryaCV.pdf": "/Portfolio-site/static/media/BoudrafZakaryaCV.61c2048b81aa71626a5a.pdf",
     "static/media/archi-design-screen.png": "/Portfolio-site/static/media/archi-design-screen.e45e9968b6a62d1e96d1.png",
     "static/media/Systematic Literature Review Data-Centric Approaches in Industrial Predictive Maintenance.pdf": "/Portfolio-site/static/media/Systematic Literature Review Data-Centric Approaches in Industrial Predictive Maintenance.1b3c375fe75283b568c3.pdf",
+    "static/media/BoudrafZakaryaCV.pdf": "/Portfolio-site/static/media/BoudrafZakaryaCV.0a7ab971a7350f5ebc02.pdf",
     "static/media/predictive-maintenance.png": "/Portfolio-site/static/media/predictive-maintenance.6fe3e41670ec80769cfe.png",
     "static/media/Self-supervised.png": "/Portfolio-site/static/media/Self-supervised.4d88448978fcde876680.png",
     "static/media/intrusion-detection.png": "/Portfolio-site/static/media/intrusion-detection.1bcefaa5590731cdbfcc.png",
@@ -36,7 +36,7 @@
     "static/media/Temperature controlled DC Motor (Final).pdf": "/Portfolio-site/static/media/Temperature controlled DC Motor (Final).09fcebe23eac0965e599.pdf",
     "index.html": "/Portfolio-site/index.html",
     "main.29b63fcb.css.map": "/Portfolio-site/static/css/main.29b63fcb.css.map",
-    "main.6b8eeb56.js.map": "/Portfolio-site/static/js/main.6b8eeb56.js.map",
+    "main.70e00e8b.js.map": "/Portfolio-site/static/js/main.70e00e8b.js.map",
     "233.b97fa4b4.chunk.js.map": "/Portfolio-site/static/js/233.b97fa4b4.chunk.js.map",
     "411.df1e9ab2.chunk.js.map": "/Portfolio-site/static/js/411.df1e9ab2.chunk.js.map",
     "366.2ddede3d.chunk.js.map": "/Portfolio-site/static/js/366.2ddede3d.chunk.js.map",
@@ -46,6 +46,6 @@
   },
   "entrypoints": [
     "static/css/main.29b63fcb.css",
-    "static/js/main.6b8eeb56.js"
+    "static/js/main.70e00e8b.js"
   ]
 }
